@@ -1,0 +1,40 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+*.log
+*.log.*
+
+# typescript
+*.tsbuildinfo
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# editor
+.vscode/
+*~
+*.swp
+*.swo
+
+# AI artifacts
+.claude/
+CLAUDE.local.md
+
+# Bubbling, alchemical, where secret raw ingredients transform ;)
+cauldron
