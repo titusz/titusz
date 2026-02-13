@@ -70,10 +70,11 @@ article {
   @apply prose-headings:font-sans prose-headings:font-light prose-headings:uppercase prose-headings:tracking-widest;
   @apply prose-headings:text-black/70 prose-headings:dark:text-white/70;
   @apply prose-ul:pl-4 prose-ol:pl-4;
+  @apply prose-strong:text-black/70 prose-strong:dark:text-white/70;
 }
 
 article :where(ul > li)::marker {
-  @apply text-black/70 dark:text-white/70 text-2xl;
+  @apply text-black/55 dark:text-white/55 text-2xl;
 }
 
 article :where(ol > li)::marker {
