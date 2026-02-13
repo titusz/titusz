@@ -50,6 +50,13 @@ header {
 header a {
   font-family: inherit !important;
   font-weight: inherit !important;
+  color: inherit !important;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out !important;
+}
+
+header a:hover {
+  color: white !important;
+  opacity: 1 !important;
 }
 
 main {
