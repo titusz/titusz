@@ -22,7 +22,7 @@ body {
   @apply flex flex-col;
   background-color: #f5f2ec;
   @apply dark:bg-stone-900;
-  @apply text-black/65 dark:text-white/80;
+  @apply text-black/75 dark:text-white/80;
 }
 
 body::before {

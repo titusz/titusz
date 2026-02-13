@@ -8,30 +8,37 @@ import { SITE } from "@consts";
   <Container>
     <div class="flex flex-wrap gap-y-2 justify-between">
       <Link href="/" underline={false}>
-        <div class="font-sans font-black">
+        <div class="flex items-center gap-2 font-sans font-black">
+          <img
+            src="https://gravatar.com/avatar/f483794c24324fbb3fae584cfdd52cf4?s=64"
+            alt={SITE.NAME}
+            width="36"
+            height="36"
+            class="rounded-full"
+          />
           {SITE.NAME}
         </div>
       </Link>
       <nav class="flex items-center gap-1 text-[0.7em] font-sans !font-light">
-        <Link href="/blog">
+        <Link href="/blog" underline={false}>
           blog
         </Link>
         <span class="opacity-30">
           |
         </span>
-        <Link href="/projects">
+        <Link href="/projects" underline={false}>
           projects
         </Link>
         <span class="opacity-30">
           |
         </span>
-        <Link href="/publications">
+        <Link href="/publications" underline={false}>
           publications
         </Link>
         <span class="opacity-30">
           |
         </span>
-        <Link href="/til">
+        <Link href="/til" underline={false}>
           til
         </Link>
       </nav>
