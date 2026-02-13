@@ -41,10 +41,10 @@ html.dark body::before {
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-white/90 dark:bg-stone-950/90;
+  @apply bg-stone-800/90 dark:bg-stone-950/90;
   @apply backdrop-blur-sm;
   @apply font-serif font-semibold uppercase tracking-[0.15em];
-  @apply text-black/80 dark:text-white/85;
+  @apply text-white/85 dark:text-white/85;
 }
 
 header a {
