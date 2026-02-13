@@ -21,7 +21,7 @@ body {
   @apply font-serif antialiased;
   @apply flex flex-col;
   background-color: #f5f2ec;
-  @apply dark:bg-stone-900;
+  @apply dark:bg-slate-900;
   @apply text-black/75 dark:text-white/80;
 }
 
