@@ -36,13 +36,22 @@ const labs = (await getCollection("lab"))
           eager
         />
         <article class="bio-card animate mt-4 rounded-lg border border-black/15 dark:border-white/20 bg-black/[0.02] dark:bg-white/[0.03] p-5 sm:p-6 space-y-4 text-[20px]">
-          <img
-            src="/images/titusz-pan.webp"
-            alt="Portrait of Titusz Pan"
-            width="128"
-            height="168"
-            class="float-left mr-4 mb-2 rounded-sm border border-black/15 dark:border-white/20 w-22 sm:w-26"
-          />
+          <div class="profile-crossfade float-left mr-4 mb-2 relative" style="width:var(--profile-w)">
+            <img
+              src="/images/titusz-pan.webp"
+              alt="Portrait of Titusz Pan"
+              width="128"
+              height="168"
+              class="block w-full rounded-sm border border-black/15 dark:border-white/20 transition-opacity duration-700 ease-in-out"
+            />
+            <img
+              src="/images/titusz-pan-le.webp"
+              alt="Portrait of Titusz Pan"
+              width="128"
+              height="168"
+              class="profile-alt absolute inset-0 w-full h-full rounded-sm border border-black/15 dark:border-white/20 object-cover transition-opacity duration-700 ease-in-out"
+            />
+          </div>
           <p class="!mt-0">
             <span class="small-caps tracking-wide text-black/90 dark:text-white/90">Titusz Pan</span> - is a techno-creative entrepreneur and engineer with 25+ years in
             digital media technology. Creator of the
@@ -119,3 +128,20 @@ const labs = (await getCollection("lab"))
     </div>
   </Container>
 </PageLayout>
+
+<style>
+  .profile-crossfade {
+    --profile-w: 5.5rem;
+  }
+  @media (min-width: 640px) {
+    .profile-crossfade {
+      --profile-w: 6.5rem;
+    }
+  }
+  .profile-alt {
+    opacity: 0;
+  }
+  .profile-crossfade:hover .profile-alt {
+    opacity: 1;
+  }
+</style>
