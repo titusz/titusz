@@ -44,7 +44,7 @@ const { Content } = await entry.render();
       {entry.data.tags && (
         <div class="animate flex gap-2 text-sm font-sans">
           {entry.data.tags.map(tag => (
-            <span class="px-2 py-0.5 rounded bg-black/5 dark:bg-white/10">
+            <span class="small-caps leading-none px-1.5 pt-[2px] pb-[6px] rounded-sm bg-black/5 dark:bg-white/10">
               {tag}
             </span>
           ))}
