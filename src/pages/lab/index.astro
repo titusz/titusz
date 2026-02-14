@@ -3,6 +3,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
+import HeroImage from "@components/HeroImage.astro";
 import { LAB } from "@consts";
 
 const data = (await getCollection("lab"))
@@ -28,8 +29,20 @@ const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
 <PageLayout title={LAB.TITLE} description={LAB.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-light text-black/70 dark:text-white/70">
-        Experiments, side-projects, and things I tinker with
+      <div class="animate">
+        <h1 class="text-4xl font-bold text-black dark:text-white sm:text-5xl">
+          Lab
+        </h1>
+        <p class="mt-3 font-light text-black/70 dark:text-white/70">
+          Experiments, side-projects, and things I tinker with
+        </p>
+        <HeroImage
+          src="/images/lab-hero.webp"
+          alt="Charcoal sketch of hands tinkering at a laboratory workbench"
+          width={1536}
+          height={1024}
+          class="mt-6"
+        />
       </div>
       <div class="space-y-4">
         {years.map(year => (
