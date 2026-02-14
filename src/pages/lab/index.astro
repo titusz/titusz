@@ -4,6 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import HeroImage from "@components/HeroImage.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
 import { LAB } from "@consts";
 
 const data = (await getCollection("lab"))
@@ -30,10 +31,8 @@ const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
   <Container>
     <div class="space-y-10">
       <div class="animate">
-        <h1 class="text-4xl font-bold text-black dark:text-white sm:text-5xl">
-          Lab
-        </h1>
-        <p class="mt-3 font-light text-black/70 dark:text-white/70">
+        <Breadcrumb items={[{ label: "Lab" }]} />
+        <p class="mt-3 text-2xl font-normal text-black/70 dark:text-white/70">
           Experiments, side-projects, and things I tinker with
         </p>
         <HeroImage

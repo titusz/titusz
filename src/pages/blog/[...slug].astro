@@ -4,7 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 import { readingTime } from "@lib/utils";
-import BackToPrev from "@components/BackToPrev.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
 
 export async function getStaticPaths() {
   const posts = (await getCollection("blog"))
@@ -24,22 +24,16 @@ const { Content } = await post.render();
 <PageLayout title={post.data.title} description={post.data.description}>
   <Container>
     <div class="animate">
-      <BackToPrev href="/blog">
-        Back to blog
-      </BackToPrev>
+      <Breadcrumb items={[{ label: "Blog", href: "/blog" }, { label: post.data.shortTitle ?? post.data.title }]} />
     </div>
-    <div class="space-y-1 mt-10 mb-6">
-      <div class="animate flex items-center gap-1.5 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
-        <div>
-          <FormattedDate date={post.data.date} />
-        </div>
-        &bull;
-        <div>
-          {readingTime(post.body)}
-        </div>
-      </div>
-      <div class="animate text-2xl font-sans font-light uppercase tracking-wide text-black/70 dark:text-white/70">
+    <div class="space-y-2 mt-4 mb-6">
+      <div class="animate text-2xl font-normal text-black/70 dark:text-white/70">
         {post.data.title}
+      </div>
+      <div class="animate flex items-center gap-1.5 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
+        <span><FormattedDate date={post.data.date} /></span>
+        <span>&bull;</span>
+        <span>{readingTime(post.body)}</span>
       </div>
     </div>
     <article class="animate">

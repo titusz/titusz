@@ -1,0 +1,30 @@
+---
+/**
+ * Breadcrumb navigation showing site hierarchy.
+ * Always starts with "Titusz" linked to home.
+ */
+type BreadcrumbItem = {
+  label: string;
+  href?: string;
+};
+
+type Props = {
+  items: BreadcrumbItem[];
+};
+
+const { items } = Astro.props;
+---
+
+<nav class="text-[0.6rem] font-sans font-light text-black/50 dark:text-white/50 uppercase tracking-widest">
+  <a href="/" class="hover:text-black dark:hover:text-white transition-colors duration-300">Titusz</a>
+  {items.map((item) => (
+    <>
+      <span class="mx-1">/</span>
+      {item.href ? (
+        <a href={item.href} class="hover:text-black dark:hover:text-white transition-colors duration-300">{item.label}</a>
+      ) : (
+        <span>{item.label}</span>
+      )}
+    </>
+  ))}
+</nav>

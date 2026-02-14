@@ -3,6 +3,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
 import { PUBLICATIONS } from "@consts";
 
 const data = await getCollection("publications");
@@ -28,8 +29,8 @@ const years = Object.keys(pubs).sort((a, b) => parseInt(b) - parseInt(a));
 <PageLayout title={PUBLICATIONS.TITLE} description={PUBLICATIONS.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-light text-black/70 dark:text-white/70">
-        Publications
+      <div class="animate">
+        <Breadcrumb items={[{ label: "Publications" }]} />
       </div>
       <div class="space-y-8">
         {years.map(year => (

@@ -8,6 +8,7 @@ const blog = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    shortTitle: z.string().optional(),
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
@@ -28,6 +29,7 @@ const projects = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    shortTitle: z.string().optional(),
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
@@ -53,6 +55,7 @@ const lab = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    shortTitle: z.string().optional(),
     description: z.string(),
     date: z.coerce.date(),
     tags: z.array(z.string()).optional(),

@@ -1,5 +1,6 @@
 ---
 title: "Sheldrake — Teaching AI to Use the Backspace Key"
+shortTitle: "Sheldrake"
 description: "A TUI experiment in cognitive backtracking, where the model can rewind its own output mid-generation and try again."
 date: 2026-02-14
 tags: ["ai", "python", "tui", "anthropic"]

@@ -1,5 +1,6 @@
 ---
 title: "ISCC — International Standard Content Code"
+shortTitle: "ISCC"
 description: "An open identification system for digital media content, published as ISO 24138:2024."
 date: "2019-01-01"
 demoURL: "https://iscc.codes"

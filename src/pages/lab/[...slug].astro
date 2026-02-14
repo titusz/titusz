@@ -4,7 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 import { readingTime } from "@lib/utils";
-import BackToPrev from "@components/BackToPrev.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
 
 export async function getStaticPaths() {
   const entries = (await getCollection("lab"))
@@ -24,32 +24,27 @@ const { Content } = await entry.render();
 <PageLayout title={entry.data.title} description={entry.data.description}>
   <Container>
     <div class="animate">
-      <BackToPrev href="/lab">
-        Back to Lab
-      </BackToPrev>
+      <Breadcrumb items={[{ label: "Lab", href: "/lab" }, { label: entry.data.shortTitle ?? entry.data.title }]} />
     </div>
-    <div class="space-y-1 mt-10 mb-6">
-      <div class="animate flex items-center gap-1.5 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
-        <div>
-          <FormattedDate date={entry.data.date} />
-        </div>
-        &bull;
-        <div>
-          {readingTime(entry.body)}
-        </div>
-      </div>
+    <div class="space-y-2 mt-4 mb-6">
       <div class="animate text-2xl font-normal text-black/70 dark:text-white/70">
         {entry.data.title}
       </div>
-      {entry.data.tags && (
-        <div class="animate flex gap-2 text-sm font-sans">
-          {entry.data.tags.map(tag => (
-            <span class="small-caps leading-none px-1.5 pt-[2px] pb-[6px] rounded-sm bg-black/5 dark:bg-white/10">
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
+      <div class="animate flex flex-wrap items-center gap-x-1.5 gap-y-2 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
+        <span><FormattedDate date={entry.data.date} /></span>
+        <span>&bull;</span>
+        <span>{readingTime(entry.body)}</span>
+        {entry.data.tags && (
+          <>
+            <span>&bull;</span>
+            {entry.data.tags.map(tag => (
+              <span class="small-caps leading-none px-1.5 pt-[1px] pb-[5px] rounded-sm bg-black/5 dark:bg-white/10 text-black/85 dark:text-white/85">
+                {tag}
+              </span>
+            ))}
+          </>
+        )}
+      </div>
     </div>
     <article class="animate">
       <Content />

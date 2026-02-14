@@ -1,5 +1,6 @@
 ---
 title: "Astro content collections support type-safe frontmatter"
+shortTitle: "Content Collections"
 description: "Astro's content collections provide Zod-based schema validation for markdown frontmatter, catching errors at build time."
 date: "2026-02-13"
 tags: ["astro", "typescript"]
