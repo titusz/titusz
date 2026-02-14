@@ -92,6 +92,23 @@ article {
   @apply prose-strong:text-black/70 prose-strong:dark:text-white/70;
 }
 
+/* Drop cap on first text paragraph (handles both with and without hero image) */
+article:not(.bio-card) > p:first-of-type:not(:has(img))::first-letter,
+article:not(.bio-card) > p:has(img) + p::first-letter {
+  float: left;
+  font-family: "Newsreader Variable", serif;
+  font-size: 3.4em;
+  line-height: 0.8;
+  padding-right: 0.08em;
+  padding-top: 0.07em;
+  color: rgb(0 0 0 / 0.7);
+}
+
+html.dark article:not(.bio-card) > p:first-of-type:not(:has(img))::first-letter,
+html.dark article:not(.bio-card) > p:has(img) + p::first-letter {
+  color: rgb(255 255 255 / 0.7);
+}
+
 article :where(ul > li)::marker {
   @apply text-black/55 dark:text-white/55 text-base;
 }
@@ -128,6 +145,37 @@ article :where(ol > li)::marker {
   }
 }
 
+/* Floating video with vertical divider */
+article .video-float-left {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0 1.25em 0 0;
+  border-right: 1px solid rgb(0 0 0 / 0.15);
+  margin-right: 1.25em;
+}
+
+.video-float-left video {
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+}
+
+html.dark .video-float-left {
+  border-right-color: rgb(255 255 255 / 0.15);
+}
+
+@media (max-width: 640px) {
+  .video-float-left {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+
 .animate {
   @apply opacity-0 translate-y-3;
   @apply transition-all duration-700 ease-out;
@@ -144,3 +192,4 @@ html #back-to-top {
 html.scrolled #back-to-top {
   @apply opacity-100 pointer-events-auto;
 }
+
