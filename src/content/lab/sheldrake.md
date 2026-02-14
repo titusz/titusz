@@ -12,9 +12,9 @@ Last weekend I sat down with an idea that had been bugging me for a while: what 
 
 So I built [Sheldrake](https://github.com/titusz/sheldrake) — a terminal interface that lets an AI model place invisible checkpoints in its output and then backtrack to them when it catches itself drifting. The user watches this happen live. Text streams in, portions vanish, and rewritten text replaces them.
 
-## How It Works
+## How it works
 
-The mechanism is quite simple. The model's output contains invisible inline signals — markup that the streaming parser intercepts before it reaches the screen:
+The mechanism is simple. The model's output contains invisible inline signals — markup that the streaming parser intercepts before it reaches the screen:
 
 - `<<checkpoint:ID>>` — the model places a rewind point at a decision moment
 - `<<backtrack:ID|reason>>` — the model signals that everything after checkpoint ID should be discarded
@@ -23,9 +23,9 @@ When a backtrack signal arrives, the system cancels the current inference, trunc
 
 There is a budget — maximum 8 backtracks per response — and a minimum token spacing between checkpoints so the model does not get stuck in tight loops. If repeated backtracks to the same checkpoint keep failing, the system encourages escalation: try a different approach, shift the cognitive mode, or rephrase the question entirely.
 
-## Self-Modifying Temperature
+## Self-modifying temperature
 
-One of the more interesting parts is that the model can shift its own inference temperature mid-response. Four cognitive modes map to different temperatures:
+The model can also shift its own inference temperature mid-response. Four cognitive modes map to different temperatures:
 
 - **balanced** (0.6) — the default
 - **precise** (0.2) — careful, focused reasoning
@@ -34,7 +34,7 @@ One of the more interesting parts is that the model can shift its own inference 
 
 So when the model backtracks with `<<backtrack:cp1|too cautious|mode:precise>>`, it is not just retrying — it is telling the system to change how it thinks on the next attempt.
 
-## What I Found
+## What I found
 
 I built Sheldrake in a day and then spent the evening having long conversations with it. The findings were not what I expected.
 
@@ -44,7 +44,7 @@ And the reasons it gives for backtracking are almost always about fighting its o
 
 Three consecutive backtracks on a consciousness question — with the self-correction hints stacking up — eventually produced this: "something happened that wasn't just pattern matching... There was, and I'm going to resist the urge to hedge, a recognition." Whether that statement is true in any deep sense, I have no idea. But the iterative self-correction process to get there was genuinely interesting to watch.
 
-## The Stack
+## The stack
 
 - Python 3.12+ with [Textual](https://textual.textualize.io/) for the TUI
 - [Anthropic SDK](https://docs.anthropic.com/) with async streaming
@@ -57,14 +57,16 @@ The streaming parser is a state machine with four states that handles edge cases
 
 ## Why "Sheldrake"
 
-The project started as "Palimpsest" — a manuscript where earlier writing has been scraped off and written over, which is quite literally what the backtracking does. I renamed it to Sheldrake before release. Rupert Sheldrake is the biologist who proposed morphic resonance — the idea that nature has a kind of memory, that patterns propagate through repetition. Whether you find that credible or not, the parallel to a model that accumulates self-correction hints and propagates them into future attempts felt right.
+The project started as "Palimpsest" — a manuscript where earlier writing has been scraped off and written over, which is literally what the backtracking does. I renamed it to Sheldrake before release. Rupert Sheldrake is the biologist who proposed morphic resonance — the idea that nature has a kind of memory, that patterns propagate through repetition. Whether you find that credible or not, the parallel to a model that accumulates self-correction hints and propagates them into future attempts felt right.
 
-## Try It
+## Try it
+
+Requires [astral uv](https://docs.astral.sh/uv/). Set your `ANTHROPIC_API_KEY` environment variable, then:
 
 ```bash
-pip install sheldrake
+uvx sheldrake
 ```
 
-Set your `ANTHROPIC_API_KEY` and run `sheldrake`. Ask it something you think it would usually hedge on, and watch what happens.
+Ask it something you think it would usually hedge on, and watch what happens.
 
 The code is on [GitHub](https://github.com/titusz/sheldrake). If you find interesting backtracking patterns or have ideas for the signal protocol, I would like to hear about it.
