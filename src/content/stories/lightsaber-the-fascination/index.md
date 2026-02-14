@@ -3,6 +3,7 @@ title: "Lightsaber — The Fascination"
 description: "Why the lightsaber captivates us — a reflection on ancient values, modern technology, and humanity's longing for real magic."
 date: "2006-05-27"
 tags: ["star wars", "philosophy", "culture"]
+draft: true
 ---
 
 ![Charcoal sketch of a figure with messy hair and glasses, gazing upward with contemplative wonder while wielding a purple lightsaber](/images/lightsaber-hero.webp)

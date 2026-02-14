@@ -7,9 +7,8 @@ import type { Site, Metadata, Socials } from "@types";
 export const SITE: Site = {
   NAME: "Titusz Pan",
   EMAIL: "tp@craft.de",
-  NUM_POSTS_ON_HOMEPAGE: 3,
+  NUM_STORIES_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
   NUM_LABS_ON_HOMEPAGE: 3,
 };
 
@@ -19,19 +18,14 @@ export const HOME: Metadata = {
     "Personal website of Titusz Pan. Chairman of ISCC Foundation, creator of ISCC (ISO 24138:2024), 25+ years in digital media technology.",
 };
 
-export const BLOG: Metadata = {
-  TITLE: "Blog",
-  DESCRIPTION: "Thoughts on digital media, content identification, and open standards.",
+export const STORIES: Metadata = {
+  TITLE: "Stories",
+  DESCRIPTION: "Posts, projects, and ideas from the workshop.",
 };
 
 export const WORK: Metadata = {
   TITLE: "Work",
   DESCRIPTION: "Where I have worked and what I have done.",
-};
-
-export const PROJECTS: Metadata = {
-  TITLE: "Projects",
-  DESCRIPTION: "Open source projects and initiatives.",
 };
 
 export const LAB: Metadata = {

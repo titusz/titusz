@@ -7,15 +7,10 @@ import Link from "@components/Link.astro";
 import HeroImage from "@components/HeroImage.astro";
 import { SITE, HOME } from "@consts";
 
-const blog = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
+const stories = (await getCollection("stories"))
+  .filter(entry => !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
-
-const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+  .slice(0, SITE.NUM_STORIES_ON_HOMEPAGE);
 
 const labs = (await getCollection("lab"))
   .filter(entry => !entry.data.draft)
@@ -77,24 +72,6 @@ const labs = (await getCollection("lab"))
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-light text-black/70 dark:text-white/70">
-            Latest posts
-          </h5>
-          <Link href="/blog">
-            See all posts
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {blog.map(post => (
-            <li>
-              <ArrowCard entry={post} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-light text-black/70 dark:text-white/70">
             From the lab
           </h5>
           <Link href="/lab">
@@ -113,16 +90,16 @@ const labs = (await getCollection("lab"))
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-light text-black/70 dark:text-white/70">
-            Projects
+            Stories
           </h5>
-          <Link href="/projects">
-            See all projects
+          <Link href="/stories">
+            See all stories
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
-          {projects.map(project => (
+          {stories.map(entry => (
             <li>
-              <ArrowCard entry={project} />
+              <ArrowCard entry={entry} />
             </li>
           ))}
         </ul>

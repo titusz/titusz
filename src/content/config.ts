@@ -1,10 +1,10 @@
 /**
- * Content collection schemas for blog, work, projects, and lab.
+ * Content collection schemas for stories, work, and lab.
  */
 
 import { defineCollection, z } from "astro:content";
 
-const blog = defineCollection({
+const stories = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
@@ -13,6 +13,8 @@ const blog = defineCollection({
     date: z.coerce.date(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
+    demoURL: z.string().optional(),
+    repoURL: z.string().optional(),
   }),
 });
 
@@ -23,19 +25,6 @@ const work = defineCollection({
     role: z.string(),
     dateStart: z.coerce.date(),
     dateEnd: z.union([z.coerce.date(), z.string()]),
-  }),
-});
-
-const projects = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    shortTitle: z.string().optional(),
-    description: z.string(),
-    date: z.coerce.date(),
-    draft: z.boolean().optional(),
-    demoURL: z.string().optional(),
-    repoURL: z.string().optional(),
   }),
 });
 
@@ -51,4 +40,4 @@ const lab = defineCollection({
   }),
 });
 
-export const collections = { blog, work, projects, lab };
+export const collections = { stories, work, lab };

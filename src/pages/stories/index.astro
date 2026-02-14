@@ -4,33 +4,33 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import Breadcrumb from "@components/Breadcrumb.astro";
-import { BLOG } from "@consts";
+import { STORIES } from "@consts";
 
-const data = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
+const data = (await getCollection("stories"))
+  .filter(entry => !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-  
+
 type Acc = {
-  [year: string]: CollectionEntry<"blog">[];
+  [year: string]: CollectionEntry<"stories">[];
 }
 
-const posts = data.reduce((acc: Acc, post) => {
-    const year = post.data.date.getFullYear().toString();
+const entries = data.reduce((acc: Acc, entry) => {
+    const year = entry.data.date.getFullYear().toString();
     if (!acc[year]) {
       acc[year] = [];
     }
-    acc[year].push(post);
+    acc[year].push(entry);
     return acc;
   }, {});
 
-const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a)); 
+const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
 ---
 
-<PageLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>
+<PageLayout title={STORIES.TITLE} description={STORIES.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
       <div class="animate">
-        <Breadcrumb items={[{ label: "Blog" }]} />
+        <Breadcrumb items={[{ label: "Stories" }]} />
       </div>
       <div class="space-y-4">
         {years.map(year => (
@@ -41,9 +41,9 @@ const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a));
             <div>
               <ul class="flex flex-col gap-4">
                 {
-                  posts[year].map((post) => (
+                  entries[year].map((entry) => (
                     <li>
-                      <ArrowCard entry={post}/>
+                      <ArrowCard entry={entry}/>
                     </li>
                   ))
                 }

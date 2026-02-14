@@ -3,6 +3,7 @@ title: "Sparks While Paragliding in the Black Forest"
 description: "St. Elmo's fire at 1884 meters — an encounter with atmospheric electricity while flying above the Black Forest near Freiburg."
 date: "2006-05-05"
 tags: ["paragliding", "black forest", "adventure"]
+draft: true
 ---
 
 ![Charcoal sketch of a paraglider pilot with purple electrical sparks crackling around outstretched hands, storm clouds nearby](/images/sparks-paragliding-hero.webp)
