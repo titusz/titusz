@@ -145,8 +145,9 @@ article :where(ol > li)::marker {
   }
 }
 
-/* Floating video with vertical divider */
-article .video-float-left {
+/* Floating media with vertical divider */
+article .video-float-left,
+article .image-float-left {
   float: left;
   width: 50%;
   margin: 0;
@@ -155,18 +156,21 @@ article .video-float-left {
   margin-right: 1.25em;
 }
 
-.video-float-left video {
+.video-float-left video,
+.image-float-left img {
   width: 100%;
   border-radius: 0;
   margin: 0;
 }
 
-html.dark .video-float-left {
+html.dark .video-float-left,
+html.dark .image-float-left {
   border-right-color: rgb(255 255 255 / 0.15);
 }
 
 @media (max-width: 640px) {
-  .video-float-left {
+  .video-float-left,
+  .image-float-left {
     float: none;
     width: 100%;
     padding-right: 0;
@@ -174,6 +178,38 @@ html.dark .video-float-left {
     margin-right: 0;
     margin-bottom: 1em;
   }
+}
+
+/* Lightbox */
+.lightbox img {
+  cursor: zoom-in;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 0.85);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.lightbox-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.4);
 }
 
 .animate {
