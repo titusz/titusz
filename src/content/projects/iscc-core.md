@@ -3,6 +3,7 @@ title: "iscc-core"
 description: "Python reference implementation of the ISCC (ISO 24138:2024) core algorithms."
 date: "2020-06-01"
 repoURL: "https://github.com/iscc/iscc-core"
+draft: true
 ---
 
 The `iscc-core` library is the Python reference implementation of the ISCC standard. It

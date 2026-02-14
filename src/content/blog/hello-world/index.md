@@ -2,6 +2,7 @@
 title: "Hello World"
 description: "Why I'm starting this blog — thoughts on open standards, content identification, and building for the long term."
 date: "2026-02-13"
+draft: true
 ---
 
 After years of building tools and standards for digital media, I'm finally starting a

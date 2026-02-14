@@ -3,6 +3,7 @@ title: "Hyphenation in iBooks"
 description: "How I got JavaScript-based hyphenation working inside ePub files on Apple's iBooks — and the typographic problem it solved."
 date: "2010-09-05"
 tags: ["epub", "javascript", "typography"]
+draft: true
 ---
 
 ![Charcoal sketch of hands holding an e-reader displaying justified text with visible hyphenation](/images/hyphenation-hero.webp)

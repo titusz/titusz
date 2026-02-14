@@ -3,6 +3,7 @@ title: "iscc-sdk"
 description: "High-level SDK for creating ISCC codes from media files with automatic format detection."
 date: "2022-01-01"
 repoURL: "https://github.com/iscc/iscc-sdk"
+draft: true
 ---
 
 The `iscc-sdk` package provides a high-level Python SDK for creating ISCC codes from media

@@ -4,6 +4,7 @@ shortTitle: "Amlet"
 description: "A global registry for machine-readable AI usage rights declarations, powered by ISCC technology."
 date: "2024-01-01"
 demoURL: "https://www.amlet.ai"
+draft: true
 ---
 
 Amlet provides a global TDM (Text and Data Mining) registry that enables publishers to

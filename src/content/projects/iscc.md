@@ -5,6 +5,7 @@ description: "An open identification system for digital media content, published
 date: "2019-01-01"
 demoURL: "https://iscc.codes"
 repoURL: "https://github.com/iscc"
+draft: true
 ---
 
 The International Standard Content Code (ISCC) is a content-derived identifier for digital
