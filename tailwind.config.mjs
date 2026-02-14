@@ -17,10 +17,22 @@ export default {
         DEFAULT: {
           css: {
             lineHeight: "1.5",
+            "h2": {
+              fontSize: "1.15em",
+              marginTop: "1.4em",
+            },
+            "h3": {
+              fontSize: "1.05em",
+              marginTop: "1.2em",
+            },
+            "li": {
+              marginTop: "0.3em",
+              marginBottom: "0.3em",
+            },
             "code": {
               fontFamily: '"JetBrains Mono", monospace',
-              fontSize: "0.85em",
-              fontWeight: "400",
+              fontSize: "0.65em",
+              fontWeight: "100",
             },
             "code::before": { content: "none" },
             "code::after": { content: "none" },

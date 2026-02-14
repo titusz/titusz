@@ -28,17 +28,17 @@ const { Content } = await entry.render();
         Back to Lab
       </BackToPrev>
     </div>
-    <div class="space-y-1 my-10">
-      <div class="animate flex items-center gap-1.5 font-sans">
-        <div class="text-sm">
+    <div class="space-y-1 mt-10 mb-6">
+      <div class="animate flex items-center gap-1.5 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
+        <div>
           <FormattedDate date={entry.data.date} />
         </div>
         &bull;
-        <div class="text-sm">
+        <div>
           {readingTime(entry.body)}
         </div>
       </div>
-      <div class="animate text-2xl font-light text-black/70 dark:text-white/70">
+      <div class="animate text-2xl font-normal text-black/70 dark:text-white/70">
         {entry.data.title}
       </div>
       {entry.data.tags && (

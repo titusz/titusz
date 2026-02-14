@@ -6,6 +6,8 @@ html {
   overflow-y: scroll;
   color-scheme: light;
   font-size: 21px;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: "liga" 1, "calt" 1;
 }
 
 html.dark {
@@ -50,7 +52,9 @@ header {
 header a {
   font-family: inherit !important;
   color: inherit !important;
-  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out !important;
+  transition:
+    color 0.3s ease-in-out,
+    opacity 0.3s ease-in-out !important;
 }
 
 header nav a {
@@ -71,7 +75,12 @@ footer {
   @apply font-sans font-light;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @apply font-sans font-light uppercase tracking-widest text-black/70 dark:text-white/70;
 }
 
@@ -84,7 +93,15 @@ article {
 }
 
 article :where(ul > li)::marker {
-  @apply text-black/55 dark:text-white/55 text-2xl;
+  @apply text-black/55 dark:text-white/55 text-base;
+}
+
+:not(pre) > code {
+  @apply text-[0.65em];
+  font-weight: 100;
+  @apply border border-black/10 dark:border-white/15;
+  @apply bg-black/[0.03] dark:bg-white/[0.06];
+  @apply rounded px-[0.35em] py-[0.1em];
 }
 
 article :where(ol > li)::marker {
@@ -97,13 +114,13 @@ article :where(ol > li)::marker {
   }
 
   article a {
-    @apply font-sans font-light text-[0.9em] text-current underline underline-offset-[3px];
-    @apply decoration-black/15 dark:decoration-white/30;
+    @apply text-current underline underline-offset-[3px];
+    @apply decoration-black/30 dark:decoration-white/40;
     @apply transition-colors duration-300 ease-in-out;
   }
   article a:hover {
     @apply text-black dark:text-white;
-    @apply decoration-black/25 dark:decoration-white/50;
+    @apply decoration-black/50 dark:decoration-white/60;
   }
 
   .bio-card a {
