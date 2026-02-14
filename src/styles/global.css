@@ -92,6 +92,10 @@ article :where(ol > li)::marker {
 }
 
 @layer utilities {
+  .small-caps {
+    font-variant-caps: all-small-caps;
+  }
+
   article a {
     @apply font-sans font-light text-[0.9em] text-current underline underline-offset-[3px];
     @apply decoration-black/15 dark:decoration-white/30;
@@ -100,6 +104,10 @@ article :where(ol > li)::marker {
   article a:hover {
     @apply text-black dark:text-white;
     @apply decoration-black/25 dark:decoration-white/50;
+  }
+
+  .bio-card a {
+    @apply font-serif text-[1em];
   }
 }
 

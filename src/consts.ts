@@ -10,7 +10,7 @@ export const SITE: Site = {
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
-  NUM_TILS_ON_HOMEPAGE: 3,
+  NUM_LABS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
@@ -39,9 +39,9 @@ export const PUBLICATIONS: Metadata = {
   DESCRIPTION: "Academic papers, articles, and technical publications.",
 };
 
-export const TIL: Metadata = {
-  TITLE: "TIL",
-  DESCRIPTION: "Today I Learned — short notes on things I discover.",
+export const LAB: Metadata = {
+  TITLE: "Lab",
+  DESCRIPTION: "Experiments, side-projects, and things I tinker with.",
 };
 
 export const SOCIALS: Socials = [

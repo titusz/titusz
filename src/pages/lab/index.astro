@@ -3,14 +3,14 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
-import { TIL } from "@consts";
+import { LAB } from "@consts";
 
-const data = (await getCollection("til"))
+const data = (await getCollection("lab"))
   .filter(entry => !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 type Acc = {
-  [year: string]: CollectionEntry<"til">[];
+  [year: string]: CollectionEntry<"lab">[];
 };
 
 const entries = data.reduce((acc: Acc, entry) => {
@@ -25,11 +25,11 @@ const entries = data.reduce((acc: Acc, entry) => {
 const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
 ---
 
-<PageLayout title={TIL.TITLE} description={TIL.DESCRIPTION}>
+<PageLayout title={LAB.TITLE} description={LAB.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
       <div class="animate font-light text-black/70 dark:text-white/70">
-        Today I Learned
+        Experiments, side-projects, and things I tinker with
       </div>
       <div class="space-y-4">
         {years.map(year => (

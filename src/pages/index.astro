@@ -16,10 +16,10 @@ const projects = (await getCollection("projects"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
 
-const tils = (await getCollection("til"))
+const labs = (await getCollection("lab"))
   .filter(entry => !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_TILS_ON_HOMEPAGE);
+  .slice(0, SITE.NUM_LABS_ON_HOMEPAGE);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
@@ -34,22 +34,19 @@ const tils = (await getCollection("til"))
           class="animate w-full rounded-sm"
           loading="eager"
         />
-        <article class="animate mt-4 rounded-lg border border-black/15 dark:border-white/20 bg-black/[0.02] dark:bg-white/[0.03] p-5 sm:p-6 space-y-4">
-          <h5>Bio</h5>
-          <div>
-            <img
-              src="/images/titusz-pan.webp"
-              alt="Portrait of Titusz Pan"
-              width="128"
-              height="168"
-              class="float-left mr-4 mb-2 rounded-sm w-22 sm:w-26"
-            />
-          </div>
-          <p>
-            Techno-creative entrepreneur and software developer with 25+ years in
+        <article class="bio-card animate mt-4 rounded-lg border border-black/15 dark:border-white/20 bg-black/[0.02] dark:bg-white/[0.03] p-5 sm:p-6 space-y-4 text-[20px]">
+          <img
+            src="/images/titusz-pan.webp"
+            alt="Portrait of Titusz Pan"
+            width="128"
+            height="168"
+            class="float-left mr-4 mb-2 rounded-sm border border-black/15 dark:border-white/20 w-22 sm:w-26"
+          />
+          <p class="!mt-0">
+            <span class="small-caps tracking-wide text-black/90 dark:text-white/90">Titusz Pan</span> - is a techno-creative entrepreneur and engineer with 25+ years in
             digital media technology. Creator of the
             <Link href="https://github.com/iscc" external>International Standard Content Code (ISCC)</Link>
-            published as <Link href="https://www.iso.org/standard/77899.html" external>ISO 24138:2024</Link> and chairman of the
+            published as ISO 24138:2024 and chairman of the
             <Link href="https://iscc.io" external>ISCC Foundation</Link>. CEO of <Link href="https://craft.de" external>Craft AG</Link>
             and Co-founder and CTO of <Link href="https://www.amlet.ai" external>Amlet</Link>,
             building content infrastructure for the age of agents.
@@ -57,7 +54,7 @@ const tils = (await getCollection("til"))
           <p>
             Passionate about open source, decentralized technologies, and peer-to-peer architectures. Based in Freiburg, Germany.
           </p>
-          <blockquote class="text-black/50 dark:text-white/50">
+          <blockquote class="text-[0.85em] text-black/50 dark:text-white/50">
             "Always listen to experts. They'll tell you what can't be done, and why. Then do it."
             <footer class="not-italic text-[0.85em] mt-1">― Robert A. Heinlein</footer>
           </blockquote>
@@ -85,14 +82,14 @@ const tils = (await getCollection("til"))
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-light text-black/70 dark:text-white/70">
-            Recent TIL
+            From the lab
           </h5>
-          <Link href="/til">
-            See all TIL
+          <Link href="/lab">
+            See all experiments
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
-          {tils.map(entry => (
+          {labs.map(entry => (
             <li>
               <ArrowCard entry={entry} />
             </li>

@@ -1,5 +1,5 @@
 /**
- * RSS feed including blog posts, TIL entries, and projects.
+ * RSS feed including blog posts, lab entries, and projects.
  */
 
 import rss from "@astrojs/rss";
@@ -17,9 +17,9 @@ export async function GET(context: Context) {
     (project) => !project.data.draft
   );
 
-  const til = (await getCollection("til")).filter((entry) => !entry.data.draft);
+  const lab = (await getCollection("lab")).filter((entry) => !entry.data.draft);
 
-  const items = [...blog, ...projects, ...til].sort(
+  const items = [...blog, ...projects, ...lab].sort(
     (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
   );
 
