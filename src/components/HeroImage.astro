@@ -1,0 +1,24 @@
+---
+/**
+ * Reusable hero/banner image with consistent styling across the site.
+ */
+type Props = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  class?: string;
+  eager?: boolean;
+};
+
+const { src, alt, width, height, class: className, eager } = Astro.props;
+---
+
+<img
+  src={src}
+  alt={alt}
+  width={width}
+  height={height}
+  class:list={["w-full rounded-lg", className]}
+  loading={eager ? "eager" : "lazy"}
+/>

@@ -85,7 +85,7 @@ h6 {
 }
 
 article {
-  @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
+  @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto prose-img:rounded-lg;
   @apply prose-headings:font-sans prose-headings:font-light prose-headings:uppercase prose-headings:tracking-widest;
   @apply prose-headings:text-black/70 prose-headings:dark:text-white/70;
   @apply prose-ul:pl-4 prose-ol:pl-4;
