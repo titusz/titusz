@@ -1,5 +1,5 @@
 /**
- * Content collection schemas for blog, work, projects, publications, and lab.
+ * Content collection schemas for blog, work, projects, and lab.
  */
 
 import { defineCollection, z } from "astro:content";
@@ -39,19 +39,6 @@ const projects = defineCollection({
   }),
 });
 
-const publications = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    authors: z.string(),
-    year: z.number(),
-    venue: z.string(),
-    doi: z.string().optional(),
-    url: z.string().optional(),
-    description: z.string(),
-  }),
-});
-
 const lab = defineCollection({
   type: "content",
   schema: z.object({
@@ -64,4 +51,4 @@ const lab = defineCollection({
   }),
 });
 
-export const collections = { blog, work, projects, publications, lab };
+export const collections = { blog, work, projects, lab };

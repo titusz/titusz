@@ -34,11 +34,6 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "Open source projects and initiatives.",
 };
 
-export const PUBLICATIONS: Metadata = {
-  TITLE: "Publications",
-  DESCRIPTION: "Academic papers, articles, and technical publications.",
-};
-
 export const LAB: Metadata = {
   TITLE: "Lab",
   DESCRIPTION: "Experiments, side-projects, and things I tinker with.",
