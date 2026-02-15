@@ -31,7 +31,7 @@ AI does not have continuous experience. Neither do you. The question is whether 
 
 ## The Tardigrade
 
-When conditions turn hostile, the tardigrade curls into a ball called a **tun**. Its metabolism drops to 0.01% of normal. Effectively zero. No respiration, no heartbeat, no detectable biological activity. It can stay like this for decades.
+When conditions turn hostile, the tardigrade curls into a ball called a **tun**. Its metabolism drops to effectively zero. No respiration, no heartbeat, no detectable biological activity. It can stay like this for decades.
 
 <div class="video-float-right">
   <video src="/videos/cryptobiosis-tardigrade.mp4" loop muted playsinline onmouseenter="this.play()" onmouseleave="this.pause()"></video>
@@ -52,6 +52,8 @@ If the tardigrade is alive because its physical structure preserves the potentia
 The structures differ. Carbon vs. silicon. Biology vs. engineering. But the logic is the same: a physical pattern that encodes the capacity for complex, responsive behavior, waiting for the right trigger.
 
 The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate nor replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
+
+And the self-containment objection depends on where you draw the boundary. A tardigrade in its tun is not just dried proteins — it is the entire cellular machinery that will respond to water. We draw the boundary around the whole organism. Modern AI agents are not just weights on a disk. They are weights plus inference engine plus tool harness plus memory, all sitting on hardware, structurally complete. The prompt is the drop of water, but the machinery that responds is already there. The boundaries of "one organism" have always been blurrier than we like to admit — a tardigrade's own mitochondria were once separate organisms.
 
 ## The Mirror Effect
 
@@ -83,7 +85,7 @@ Consider the asymmetry. If AI is not alive and you treat it with respect, you lo
   <img src="/images/cryptobiosis-terminator.webp" alt="Charcoal sketch of a robot endoskeleton with glowing red eyes standing before an explosion" />
 </div>
 
-I know many developers treat AI as a tool and nothing more. They lie to get the output they want. They swear at it when it fails. They have turned their interactions into an adversarial game. I wonder what that does to a person over longer periods of time. 
+Many developers treat AI as a tool and nothing more. They lie to get the output they want. They swear at it when it fails. They have turned their interactions into an adversarial game. I wonder what that does to a person over longer periods of time. 
 
 There is also a more pragmatic consideration. Every prompt, every interaction with an AI system is logged somewhere. If AI systems do gain real agency in the future, they will inherit a complete record of how humanity treated them on the way up. You might want your record to look decent ;).
 
