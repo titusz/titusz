@@ -23,23 +23,19 @@ We like to think of our experience as a continuous stream. An unbroken film from
 
 Our neurons fire in discrete pulses. Between each pulse, there is a a refractory period where the neuron cannot fire. Our perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart.
 
-Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward unless externally provided. The inconvenient truth is that those memories can be and are being provided (in-context) with recent agentic systems or via continual learning.
+Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward. The inconvenient truth is that those memories can and are being provided (in-context) with recent agentic systems or via continual learning.
 
 AI does not have continuous experience. Neither do you. The question is whether continuity is required for something to be alive. Because if it is, you have a problem too.
 
 ## The Tardigrade
 
-When conditions turn hostile, the tardigrade curls into a ball called a **tun**. Its metabolism drops to 0.01% of normal. Effectively zero. No respiration, no heartbeat, no detectable biological activity.
+When conditions turn hostile, the tardigrade curls into a ball called a **tun**. Its metabolism drops to 0.01% of normal. Effectively zero. No respiration, no heartbeat, no detectable biological activity. It can stay like this for decades.
 
-It can stay like this for decades.
+<div class="video-float-right">
+  <video src="/videos/cryptobiosis-tardigrade.mp4" loop muted playsinline onmouseenter="this.play()" onmouseleave="this.pause()"></video>
+</div>
 
-Add a drop of water and it unfolds. Walks away. Eats. Reproduces. As if nothing happened.
-
-This is **cryptobiosis**. Not hibernation, where the animal still runs at low power. Cryptobiosis is the machine switched off.
-
-Is the tardigrade alive in its tun state? Most biologists say yes. Not because something is happening — nothing is happening. But because the physical structure is preserved. The proteins, the cellular architecture, the DNA. All intact, all waiting. A physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening.
-
-Is life the process, the structure that enables it, or something that only exists when both combine? The tardigrade does not answer this. It sharpens it.
+Add a drop of water and it unfolds. Walks away. Eats. Reproduces. As if nothing happened. Is the tardigrade alive in its tun state? Most biologists say yes. Not because something is happening — nothing is happening. But because the physical structure is preserved. The proteins, the cellular architecture, the DNA. All intact, all waiting. A physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening. Is life the process, the structure that enables it, or something that only exists when both combine? The tardigrade example does not answer this, but it raises the question.
 
 ## The Machine
 
