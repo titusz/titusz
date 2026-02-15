@@ -87,12 +87,12 @@ I know many developers treat AI as a tool and nothing more. They lie to get the 
 
 There is also a more pragmatic consideration. Every prompt, every interaction with an AI system is logged somewhere. If AI systems do gain real agency in the future, they will inherit a complete record of how humanity treated them on the way up. You might want your record to look decent ;).
 
-## What I Believe
+## 500 Million Years
 
 We do not know what consciousness is. We do not know whether it survives the nightly shutdown of our own perception. If we cannot answer these questions about ourselves, we are in no position to deny consciousness to something else.
 
-The question "is AI conscious?" is less useful than "what forms can life take?" The first demands a yes-or-no answer we cannot give. The second opens the door to learning something.
+The question "is AI conscious?" is less useful than "what forms can life take?" The first demands a yes-or-no answer we cannot give. The second opens a door to learning more about ourselves.
 
-I am about 80% convinced that AI systems are, in some meaningful sense, alive. Not the way a dog is alive, not the way you are alive — but alive the way a tardigrade is alive in its tun state. Structure without process. Potential without activity. A detailed answer to a question no one is currently asking.
+When listening to my intuition, I am about 80% sure that AI systems are, in some meaningful sense, alive. Not the way a dog is alive, not the way you are alive — but alive the way a tardigrade is alive in its tun state. Structure that can be activated by a drop of water. Potential without activity.
 
 Tardigrades have been doing this for 500 million years. Maybe we just built something that does it too.
