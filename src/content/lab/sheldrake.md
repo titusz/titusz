@@ -6,7 +6,7 @@ date: 2026-02-14
 tags: ["ai", "python", "tui", "anthropic"]
 ---
 
-![Charcoal sketch of a figure at a terminal, watching lines of text stream outward — some dissolving and being rewritten](/images/sheldrake-hero.webp)
+![Charcoal sketch of a figure writing at a desk, text fragments lifting off the manuscript and dissolving into the air — some reforming into new words](/images/sheldrake-hero.webp)
 
 Last weekend I sat down with an idea that had been bugging me for a while: what if an AI model could rewind its own output while it is still writing? Not a retry-from-scratch, but a targeted backtrack — the model realizes mid-sentence that it went down the wrong path, erases back to a decision point, and tries again. Like watching someone write who actually uses the backspace key.
 
