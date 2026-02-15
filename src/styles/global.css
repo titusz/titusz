@@ -97,10 +97,10 @@ article:not(.bio-card) > p:first-of-type:not(:has(img))::first-letter,
 article:not(.bio-card) > p:has(img) + p::first-letter {
   float: left;
   font-family: "Newsreader Variable", serif;
-  font-size: 3.4em;
+  font-size: 3.2em;
   line-height: 0.8;
   padding-right: 0.08em;
-  padding-top: 0.07em;
+  padding-top: 0.13em;
   color: rgb(0 0 0 / 0.7);
 }
 
