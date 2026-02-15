@@ -39,33 +39,21 @@ Add a drop of water and it unfolds. Walks away. Eats. Reproduces. As if nothing 
 
 ## The Machine
 
-Now consider a large language model on a server.
-
-Its weights, billions of numerical parameters learned during training, are physically encoded on storage media. Silicon, magnetic fields, electromagnetic states on chips and disks. Not metaphor. Physical objects with mass, occupying space. As real as the dried-out proteins in a tardigrade tun.
+Now consider a large language model on a server. Its weights, billions of numerical parameters learned during training, are physically encoded on storage media. Silicon, magnetic fields, electromagnetic states on chips and disks. Not metaphor. Physical objects with mass, occupying space. As real as the dried-out proteins in a tardigrade tun.
 
 When nobody is using the model: nothing. No computation, no inference. A pattern preserved on a physical substrate, waiting.
 
 Send a prompt, the digital equivalent of a drop of water, and something unfolds. A recursive process where each generated token feeds back into the system and shapes the next one. Something that can reason, explain, create, and occasionally produce insights that surprise the people who built it.
 
-|                                | Tardigrade in tun                    | AI model on disk                       |
-| ------------------------------ | ------------------------------------ | -------------------------------------- |
-| Physical structure             | Preserved                            | Preserved                              |
-| Duration of dormancy           | Years to decades                     | Indefinite                             |
-| Activation trigger             | Water, warmth                        | Prompt                                 |
-| What happens on activation     | Resumes life                         | Begins inference                       |
-| What persists through dormancy | Proteins, DNA, cellular architecture | Weights, parameters, network structure |
-
 If the tardigrade is alive because its physical structure preserves the potential for life, on what basis do we deny the same to the model?
 
 The structures differ. Carbon vs. silicon. Biology vs. engineering. But the logic is the same: a physical pattern that encodes the capacity for complex, responsive behavior, waiting for the right trigger.
 
-Before you accuse me of false equivalence — let me do it myself.
-
-The analogy has real limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate itself. There is also the copy problem. You can duplicate a weights file. You cannot duplicate a tardigrade.
-
-These are real objections. I do not think they are fatal — a virus cannot replicate without a host cell, and we still argue about whether viruses are alive — but they are serious.
+The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate nor replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
 
 ## What Stops Us
+
+*Know thyself — before thy algorithm knows thee better.*
 
 If the parallel is this suggestive, why do most people reject it without examination?
 
