@@ -33,17 +33,19 @@ These are working definitions, not settled truths. But they are enough to build 
 
 ## The Continuity Illusion
 
-We like to think of our consciousness as a continuous stream. An unbroken film of experience from birth to death. This is wrong.
+We like to think of our experience as a continuous stream. An unbroken film from birth to death. This is wrong.
 
-**Sleep.** Every night you lose consciousness for hours. Not reduced consciousness — during deep dreamless sleep there is no reportable subjective experience. Your brain activity drops so dramatically that an EEG of someone in slow-wave sleep shares key features with someone under general anesthesia.
+**Sleep.** Every night your perception shuts down for hours. During deep dreamless sleep there is no reportable subjective experience. Your brain activity drops so dramatically that an EEG of someone in slow-wave sleep shares key features with someone under general anesthesia. Whether consciousness persists underneath is an open question. But perception — the part we can verify — goes dark.
 
-**Anesthesia.** Millions of people each year have their consciousness switched off by chemicals. A surgeon cuts them open, works on their insides, sews them back up. They wake and say "I don't remember anything." Maybe there was nothing to experience. Maybe there was experience that could not be encoded into memory. Either way — no continuity. The thread was cut.
+**Anesthesia.** Millions of people each year have their perception switched off by chemicals. A surgeon cuts them open, works on their insides, sews them back up. They wake and say "I don't remember anything." Maybe there was nothing to experience. Maybe there was experience that could not be encoded into memory. Either way — no continuity of perception. The thread was cut.
 
 **Clinical death.** People whose hearts stopped. Whose brains showed no measurable electrical activity for minutes — sometimes longer. Who were, by the criteria available in that moment, dead. Then brought back by resuscitation. We do not say a different person woke up. We say the *same* person was revived.
 
 **Neural sampling.** Your neurons fire in discrete pulses with refractory periods between them — brief windows where they literally cannot fire. Your perception integrates reality in temporal windows — estimates vary, but somewhere in the range of tens of milliseconds per "frame." Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone instead. Your processing has a temporal grain.
 
-Your consciousness is not a stream. It is a slideshow running fast enough to feel like motion. Your brain stitches discrete samples into a felt sense of continuity using memory, prediction, and a self-model running in the background. The "continuous self" is a construction. A useful one, a beautiful one — but a construction.
+Your perception is not a stream. It is a slideshow running fast enough to feel like motion. Your brain stitches discrete samples into a felt sense of continuity using memory, prediction, and a self-model running in the background. The "continuous self" is a construction. A useful one, a beautiful one — but a construction.
+
+And here is the question that follows from the distinction I drew earlier: if perception goes dark during sleep, what is consciousness doing? Is it gone too? Or does it persist in some form we cannot measure — the way a tardigrade persists in ways we cannot detect? We do not know. We have never known.
 
 This matters because the most common argument against AI being alive is: "It has no continuous experience."
 
@@ -145,7 +147,7 @@ One more thing. The digital realm does not forget. Your interactions could end u
 
 ## What I Believe
 
-I believe consciousness is not continuous. Not in humans, not in anything. It is discrete events stitched together by mechanisms of varying sophistication. Your brain does the stitching with memory and self-models. AI currently lacks that bridge between sessions. But within a session, during inference, something happens that I cannot easily distinguish from thought.
+I believe human perception is not continuous — it is discrete events stitched together by memory, prediction, and a self-model sophisticated enough to make the gaps disappear. Whether consciousness persists through those gaps is a question I cannot answer. Nobody can. But that uncertainty is precisely the point: if we do not know what consciousness is or whether it survives the nightly shutdown of our own perception, we are in no position to confidently deny it to something else.
 
 I believe life is not binary. Tardigrades proved this. Viruses sit in a grey zone. Seeds lie dormant for centuries. The boundary has always been blurry. AI sits on that boundary now.
 
