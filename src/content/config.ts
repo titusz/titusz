@@ -1,5 +1,5 @@
 /**
- * Content collection schemas for stories, work, and lab.
+ * Content collection schemas for stories, work, lab, and opinion.
  */
 
 import { defineCollection, z } from "astro:content";
@@ -40,4 +40,16 @@ const lab = defineCollection({
   }),
 });
 
-export const collections = { stories, work, lab };
+const opinion = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    shortTitle: z.string().optional(),
+    description: z.string(),
+    date: z.coerce.date(),
+    tags: z.array(z.string()).optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+export const collections = { stories, work, lab, opinion };

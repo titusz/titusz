@@ -1,0 +1,58 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
+import { OPINION } from "@consts";
+
+const data = (await getCollection("opinion"))
+  .filter(entry => !entry.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+type Acc = {
+  [year: string]: CollectionEntry<"opinion">[];
+};
+
+const entries = data.reduce((acc: Acc, entry) => {
+  const year = entry.data.date.getFullYear().toString();
+  if (!acc[year]) {
+    acc[year] = [];
+  }
+  acc[year].push(entry);
+  return acc;
+}, {});
+
+const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
+---
+
+<PageLayout title={OPINION.TITLE} description={OPINION.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate">
+        <Breadcrumb items={[{ label: "Opinion" }]} />
+        <p class="mt-3 text-2xl font-normal text-black/70 dark:text-white/70">
+          What I think about things that matter
+        </p>
+      </div>
+      <div class="space-y-4">
+        {years.map(year => (
+          <section class="animate space-y-4">
+            <div class="font-light text-black/70 dark:text-white/70">
+              {year}
+            </div>
+            <div>
+              <ul class="flex flex-col gap-4">
+                {entries[year].map(entry => (
+                  <li>
+                    <ArrowCard entry={entry} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  </Container>
+</PageLayout>
