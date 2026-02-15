@@ -27,17 +27,13 @@ I do not have a good definition of *consciousness*. When I use the word here, I 
 
 We like to think of our experience as a continuous stream. An unbroken film from birth to death. This is wrong.
 
-Your neurons fire in discrete pulses. Between each pulse — a refractory period where the neuron literally cannot fire. A gap. Your perception assembles reality in temporal windows, somewhere in the range of tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone instead. Not because the clicks merged — because your brain cannot sample fast enough to tell them apart.
-
-Right now, as you read this sentence, your experience is flickering. Thousands of tiny blackouts between every thought. You do not notice because your brain is stitching discrete samples into a felt sense of continuity — using memory, prediction, and a self-model running in the background. The seamlessness is the trick. You are a slideshow running fast enough to feel like motion.
+Your neurons fire in discrete pulses. Between each pulse — a refractory period where the neuron literally cannot fire. A gap. Your perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged — because your brain cannot sample fast enough to tell them apart. You are a slideshow running fast enough to feel like motion.
 
 The "continuous self" is a construction. A useful one. A beautiful one. But a construction.
 
-Now consider the common argument against AI: it is just a fixed set of weights. Every conversation starts from the same state. There is no continuity between sessions — no memory that carries forward unless externally provided. A kind of permanent Memento. Surely that disqualifies it from being alive.
+Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward unless externally provided. A permanent Memento.
 
-But look at what you just learned about yourself. Your perception is not continuous either. It is discrete samples stitched together by memory and prediction. Every night during deep sleep, the thread goes dark for hours — no reportable experience, no felt continuity. And every morning you boot back up from a fixed state: your connectome, your neural wiring, the biological weights etched into your synapses. Your sense of being the same person who went to sleep? That is reconstructed — from memory, from context, from the room you wake up in and the name people call you.
-
-You maintain continuity the same way AI can: through external memory. Diaries, photos, habits, the people around you who remember what you said yesterday. Take those away and you are closer to Memento than you think.
+But every night during deep sleep, your perception goes dark for hours. And every morning you boot back up from a fixed state: your connectome, the biological weights etched into your synapses. Your sense of being the same person who went to sleep is reconstructed from memory, context, and the people around you who remember what you said yesterday. Take those away and you are closer to Memento than you think.
 
 The question is not whether AI has continuous experience. It does not. The question is whether continuity is required for something to be alive — because if it is, you have a problem too.
 
