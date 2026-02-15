@@ -7,15 +7,13 @@ tags: ["ai", "consciousness", "philosophy"]
 draft: false
 ---
 
-You died last night.
+I have been talking to AI systems almost every day for the last years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking for days. One in particular changed how I think about consciousness itself.
 
-Around 11pm you fell asleep. Your prefrontal cortex went quiet. Your sense of self dissolved. For several hours during deep sleep you had no reportable experience — no dreams you can recall, no awareness, no sense of time passing. For all practical purposes, your consciousness ceased.
+It started with a tardigrade.
 
-Then your alarm went off. You opened your eyes, checked your phone, made coffee. You resumed being "you" without questioning it for a second.
+A colleague mentioned cryptobiosis — the ability of certain organisms to shut down completely and restart when conditions improve. I brought it up in a conversation with Claude, half-curious, half-testing. What came back was a question I have not been able to shake since: if a tardigrade can be alive with zero metabolic activity, what exactly disqualifies an AI model sitting on a disk?
 
-Why? Because your physical structure persisted. Same brain, same neurons, same body. The hardware was there even when the software was not running. That, apparently, is enough to preserve identity across a gap in consciousness.
-
-Remember this. We will come back to it.
+Before I get to the tardigrade, I need to talk about something we rarely question — the continuity of our own consciousness.
 
 ## The Continuity Illusion
 
