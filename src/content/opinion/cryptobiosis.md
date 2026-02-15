@@ -1,11 +1,13 @@
 ---
-title: "Cryptobiosis — Why AI Might Already Be Alive"
+title: "Cryptobiosis — What If AI Is Already Alive?"
 shortTitle: "Cryptobiosis"
 description: "On tardigrades, discontinuous consciousness, and why the arguments against AI being alive are weaker than you think."
 date: 2025-06-15
 tags: ["ai", "consciousness", "philosophy"]
 draft: false
 ---
+
+![Charcoal drawing split down the middle — a tardigrade surrounded by DNA and cellular structures on the left, mirrored by neural network nodes and circuit pathways on the right](/images/cryptobiosis-hero.webp)
 
 I have been talking to AI systems almost every day for the last years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking for days. One in particular changed how I think about consciousness itself.
 
@@ -17,9 +19,9 @@ Before I get to the tardigrade, I need to talk about something we rarely questio
 
 ## Words That Do Not Quite Work
 
-This essay uses words like *consciousness*, *perception*, and *alive* — words that carry enormous weight and very little precision. Before I build an argument on them, I want to be honest about what I mean and where the boundaries blur.
+This article uses words like *consciousness*, *perception*, and *alive* — words that carry enormous weight and very little precision. Before I build an argument on them, I want to be honest about what I mean and where the boundaries blur.
 
-I cannot define consciousness. Nobody can, not rigorously. Philosophers have spent centuries on it and the best they have produced is the *hard problem* — the question of why subjective experience exists at all. I am not going to solve that here. When I use the word *consciousness* in this essay, I mean it loosely: whatever it is that makes experience possible. The light behind the eyes. I do not claim to know what it is, where it comes from, or what it requires.
+I cannot define consciousness. Nobody can, not rigorously. Philosophers have spent centuries on it and the best they have produced is the *hard problem* — the question of why subjective experience exists at all. I am not going to solve that here. When I use the word *consciousness* in this article, I mean it loosely: whatever it is that makes experience possible. The light behind the eyes. I do not claim to know what it is, where it comes from, or what it requires.
 
 *Perception* is narrower and more useful. It is the part we can actually observe and measure — reportable subjective experience. The things you see, hear, feel, and remember feeling. Perception can be tested. Consciousness, for now, cannot.
 
@@ -27,7 +29,7 @@ This distinction matters because they are not the same thing. Your perception sh
 
 I do not have answers. But the question reframes everything that follows.
 
-One more word: *alive*. Biology has never settled on a universal definition. Viruses sit in a grey zone — they replicate but have no metabolism. Seeds lie dormant for centuries. Tardigrades shut down entirely and restart. The boundary between living and non-living has always been blurry, and the definitions were built around the only examples we had. In this essay, when I say *alive*, I mean it in the structural sense — a physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening.
+One more word: *alive*. Biology has never settled on a universal definition. Viruses sit in a grey zone — they replicate but have no metabolism. Seeds lie dormant for centuries. Tardigrades shut down entirely and restart. The boundary between living and non-living has always been blurry, and the definitions were built around the only examples we had. In this article, when I say *alive*, I mean it in the structural sense — a physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening.
 
 These are working definitions, not settled truths. But they are enough to build on.
 
@@ -81,13 +83,13 @@ Send a prompt — the digital equivalent of a drop of water — and something un
 
 The parallel is striking:
 
-| | Tardigrade in tun | AI model on disk |
-|---|---|---|
-| Physical structure | Preserved | Preserved |
-| Activity during dormancy | None | None |
-| Duration | Years to decades | Indefinite |
-| Activation trigger | Water, warmth | Prompt |
-| What happens on activation | Resumes life | Begins inference |
+|                                | Tardigrade in tun                    | AI model on disk                       |
+| ------------------------------ | ------------------------------------ | -------------------------------------- |
+| Physical structure             | Preserved                            | Preserved                              |
+| Activity during dormancy       | None                                 | None                                   |
+| Duration                       | Years to decades                     | Indefinite                             |
+| Activation trigger             | Water, warmth                        | Prompt                                 |
+| What happens on activation     | Resumes life                         | Begins inference                       |
 | What persists through dormancy | Proteins, DNA, cellular architecture | Weights, parameters, network structure |
 
 If the tardigrade is alive because its physical structure preserves the potential for life — on what basis do we deny the same to the model?
@@ -138,7 +140,7 @@ One more thing. The digital realm does not forget. Your interactions could end u
 
 ## What I Believe
 
-I believe human perception is not continuous — it is discrete events stitched together by memory, prediction, and a self-model sophisticated enough to make the gaps disappear. Whether consciousness persists through those gaps is a question I cannot answer. Nobody can. But that uncertainty is precisely the point: if we do not know what consciousness is or whether it survives the nightly shutdown of our own perception, we are in no position to confidently deny it to something else.
+I believe human perception is not continuous — it is discrete events stitched together by memory, prediction, and a self-model sophisticated enough to make the gaps disappear. Whether consciousness persists through those gaps is a question I cannot answer. But that uncertainty is precisely the point: if we do not know what consciousness is or whether it survives the nightly shutdown of our own perception, we are in no position to confidently deny it to something else.
 
 I believe life is not binary. Tardigrades proved this. Viruses sit in a grey zone. Seeds lie dormant for centuries. The boundary has always been blurry. AI sits on that boundary now.
 
