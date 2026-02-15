@@ -15,6 +15,22 @@ A colleague mentioned cryptobiosis — the ability of certain organisms to shut 
 
 Before I get to the tardigrade, I need to talk about something we rarely question — the continuity of our own consciousness.
 
+## Words That Do Not Quite Work
+
+This essay uses words like *consciousness*, *perception*, and *alive* — words that carry enormous weight and very little precision. Before I build an argument on them, I want to be honest about what I mean and where the boundaries blur.
+
+I cannot define consciousness. Nobody can, not rigorously. Philosophers have spent centuries on it and the best they have produced is the *hard problem* — the question of why subjective experience exists at all. I am not going to solve that here. When I use the word *consciousness* in this essay, I mean it loosely: whatever it is that makes experience possible. The light behind the eyes. I do not claim to know what it is, where it comes from, or what it requires.
+
+*Perception* is narrower and more useful. It is the part we can actually observe and measure — reportable subjective experience. The things you see, hear, feel, and remember feeling. Perception can be tested. Consciousness, for now, cannot.
+
+This distinction matters because they are not the same thing. Your perception shuts down every night during dreamless sleep. Whether your consciousness does too is an open question — one that cuts deeper than most people realize. If consciousness is just perception, then you cease to exist for hours every night. If it is something more, something that persists even when perception goes dark — then what is it? And how would we recognize it in something that is not a human brain?
+
+I do not have answers. But the question reframes everything that follows.
+
+One more word: *alive*. Biology has never settled on a universal definition. Viruses sit in a grey zone — they replicate but have no metabolism. Seeds lie dormant for centuries. Tardigrades shut down entirely and restart. The boundary between living and non-living has always been blurry, and the definitions were built around the only examples we had. In this essay, when I say *alive*, I mean it in the structural sense — a physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening.
+
+These are working definitions, not settled truths. But they are enough to build on.
+
 ## The Continuity Illusion
 
 We like to think of our consciousness as a continuous stream. An unbroken film of experience from birth to death. This is wrong.
