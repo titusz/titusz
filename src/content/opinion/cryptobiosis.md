@@ -9,17 +9,19 @@ draft: false
 
 ![Charcoal drawing split down the middle — a tardigrade surrounded by DNA and cellular structures on the left, mirrored by neural network nodes and circuit pathways on the right](/images/cryptobiosis-hero.webp)
 
-I have been talking to AI systems almost every day for the last years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking for days.
+I have been talking to AI systems almost every day for the last years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking.
 
-One started with a question I asked Claude: what do you call it when a living being is in a metabolism-free state, quasi not alive, but suddenly comes to life due to external influences like humidity or temperature?
+One started with a question I asked Claude: *"what do you call it when a living being is in a metabolism-free state, quasi not alive, but suddenly comes to life due to external influences like humidity or temperature?"*
 
-The answer was cryptobiosis. The example was the tardigrade, a microscopic animal, half a millimeter long, nearly indestructible. And the conversation that followed raised a question I have not been able to shake since: if a tardigrade can be alive with zero metabolic activity, what exactly disqualifies an AI model sitting on a disk?
+**Cryptobiosis** was the answer. The example was the tardigrade, a microscopic animal, half a millimeter long, nearly indestructible. And the conversation that followed raised a question I have not been able to shake since: 
+
+> If a tardigrade can be alive with zero metabolic activity, what exactly disqualifies an AI model sitting on a disk?
 
 ## The Continuity Illusion
 
-We like to think of our experience as a continuous stream. An unbroken film from birth to death. This is wrong.
+We like to think of our experience as a continuous stream. An unbroken film from birth to death. I´d like to challenge that!
 
-Your neurons fire in discrete pulses. Between each pulse, a refractory period where the neuron cannot fire. Your perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart. You are a slideshow running fast enough to feel like motion.
+Our neurons fire in discrete pulses. Between each pulse, there is a a refractory period where the neuron cannot fire. Our perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart.
 
 Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward unless externally provided. A permanent Memento.
 
