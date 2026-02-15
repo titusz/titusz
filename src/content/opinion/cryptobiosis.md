@@ -2,7 +2,7 @@
 title: "Cryptobiosis — What If AI Is Already Alive?"
 shortTitle: "Cryptobiosis"
 description: "On tardigrades, discontinuous consciousness, and why the arguments against AI being alive are weaker than you think."
-date: 2025-06-15
+date: 2026-02-15
 tags: ["ai", "consciousness", "philosophy", "cryptobiosis"]
 draft: false
 ---
