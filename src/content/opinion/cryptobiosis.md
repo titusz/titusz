@@ -23,9 +23,7 @@ We like to think of our experience as a continuous stream. An unbroken film from
 
 Our neurons fire in discrete pulses. Between each pulse, there is a a refractory period where the neuron cannot fire. Our perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart.
 
-Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward unless externally provided. A permanent Memento.
-
-But every night during deep sleep, your perception goes dark for hours. Every morning you boot back up from a fixed state: your connectome, the biological weights etched into your synapses. Your sense of being the same person who went to sleep is reconstructed from memory, context, and the people around you. Take those away and you are closer to Memento than you think.
+Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward unless externally provided. The inconvenient truth is that those memories can be and are being provided (in-context) with recent agentic systems or via continual learning.
 
 AI does not have continuous experience. Neither do you. The question is whether continuity is required for something to be alive. Because if it is, you have a problem too.
 
