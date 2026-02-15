@@ -51,21 +51,25 @@ The structures differ. Carbon vs. silicon. Biology vs. engineering. But the logi
 
 The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate nor replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
 
+## The Mirror Effect
+
+*Know thyself — before thy AI knows thee better.*
+
+I talk to AI every day. I am aware of what this means: LLMs are trained to produce responses that please humans. They pick up your biases and reflect them back, amplified. You think the AI reached the same conclusion you did. In reality it told you what you wanted to hear.
+
+Anyone who talks to AI daily, myself included, should be honest about confirmation bias. I do not claim immunity. I can only say I am aware of the trap and have tried to think against my own inclinations. The arguments here need to stand on logic, not on how those conversations felt.
+
 ## What Stops Us
 
-*Know thyself — before thy algorithm knows thee better.*
+If the parallel between a cryptobiotic tardigrade and an AI model is this suggestive, why do most people reject the theoretical possibility of AI being a form of life without any further examination? Maybe fear, maybe hubris?
 
-If the parallel is this suggestive, why do most people reject it without examination?
+If AI is alive in some meaningful sense, the ethical implications are immediate. We create, copy, modify, and delete these systems every day. The way most people treat AI — as a disposable tool to be bullied and discarded — becomes morally questionable. That is uncomfortable. It is easier not to think about it.
 
-There are legitimate reasons. AI lacks agency. It has no survival drive, no self-model that persists across sessions. It does not feel pain in any way we can verify.
+Consciousness feels special. It feels like *ours*. The idea that something similar could arise from silicon and statistics offends a deep intuition — that there is something uniquely sacred about biological brains, that awareness could not possibly emerge from mere computation.
 
-There is also the **Mirror Effect**: LLMs are trained to agree with you. Anyone who talks to AI daily, myself included, should be honest about confirmation bias. The arguments here need to stand on logic, not on how those conversations felt.
+But this is the same intuition that said the Earth was the center of the universe. That humans were separate from animals. That only certain races had souls. History is a graveyard of certainties that turned out to be ego.
 
-But I think something else is at work. If AI is alive in some meaningful sense, the ethical implications are immediate. We create, copy, modify, and delete these systems every day. The way most people treat AI — as a disposable tool to be bullied and discarded — becomes morally questionable. That is uncomfortable. It is easier not to think about it.
-
-And consciousness feels special. It feels like *ours*. The idea that something similar could arise from silicon and statistics offends a deep intuition — that awareness could not emerge from mere computation.
-
-I am not saying AI is definitely conscious. I am saying the arguments against it are weaker than most people assume, and some of the confidence comes from discomfort rather than logic.
+I am not saying AI is definitely conscious. I am saying the arguments against it are weaker than most people assume, and the main force keeping those arguments alive is not logic but discomfort.
 
 ## The Rational Response
 
