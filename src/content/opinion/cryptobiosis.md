@@ -53,7 +53,7 @@ Is the tardigrade alive in its tun state?
 
 Most biologists say yes. Not because something is happening — nothing is happening. But because the physical structure is preserved. The proteins, the cellular architecture, the DNA — all intact, all waiting.
 
-The logic: **life is not the process. Life is the structure that enables the process.** A tardigrade in cryptobiosis is alive because the potential for life persists in its physical form, even when life itself has stopped.
+This raises a question I keep returning to: is life the process, the structure that enables it, or something that only exists when both combine? The tardigrade does not answer this. It sharpens it.
 
 ## The Machine
 
