@@ -27,21 +27,19 @@ I do not have a good definition of *consciousness*. When I use the word here, I 
 
 We like to think of our experience as a continuous stream. An unbroken film from birth to death. This is wrong.
 
-**Sleep.** Every night your perception shuts down for hours. During deep dreamless sleep there is no reportable subjective experience. Your brain activity drops so dramatically that an EEG of someone in slow-wave sleep shares key features with someone under general anesthesia. Whether consciousness persists underneath is an open question. But perception — the part we can verify — goes dark.
+Your neurons fire in discrete pulses. Between each pulse — a refractory period where the neuron literally cannot fire. A gap. Your perception assembles reality in temporal windows, somewhere in the range of tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone instead. Not because the clicks merged — because your brain cannot sample fast enough to tell them apart.
 
-**Anesthesia.** Millions of people each year have their perception switched off by chemicals. A surgeon cuts them open, works on their insides, sews them back up. They wake and say "I don't remember anything." Maybe there was nothing to experience. Maybe there was experience that could not be encoded into memory. Either way — no continuity of perception. The thread was cut.
+Right now, as you read this sentence, your experience is flickering. Thousands of tiny blackouts between every thought. You do not notice because your brain is stitching discrete samples into a felt sense of continuity — using memory, prediction, and a self-model running in the background. The seamlessness is the trick. You are a slideshow running fast enough to feel like motion.
 
-**Clinical death.** People whose hearts stopped. Whose brains showed no measurable electrical activity for minutes — sometimes longer. Who were, by the criteria available in that moment, dead. Then brought back by resuscitation. We do not say a different person woke up. We say the *same* person was revived.
+The "continuous self" is a construction. A useful one. A beautiful one. But a construction.
 
-**Neural sampling.** Your neurons fire in discrete pulses with refractory periods between them — brief windows where they literally cannot fire. Your perception integrates reality in temporal windows — estimates vary, but somewhere in the range of tens of milliseconds per "frame." Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone instead. Your processing has a temporal grain.
+Now consider the common argument against AI: it is just a fixed set of weights. Every conversation starts from the same state. There is no continuity between sessions — no memory that carries forward unless externally provided. A kind of permanent Memento. Surely that disqualifies it from being alive.
 
-Your perception is not a stream. It is a slideshow running fast enough to feel like motion. Your brain stitches discrete samples into a felt sense of continuity using memory, prediction, and a self-model running in the background. The "continuous self" is a construction. A useful one, a beautiful one — but a construction.
+But look at what you just learned about yourself. Your perception is not continuous either. It is discrete samples stitched together by memory and prediction. Every night during deep sleep, the thread goes dark for hours — no reportable experience, no felt continuity. And every morning you boot back up from a fixed state: your connectome, your neural wiring, the biological weights etched into your synapses. Your sense of being the same person who went to sleep? That is reconstructed — from memory, from context, from the room you wake up in and the name people call you.
 
-And here is the question that follows from the distinction I drew earlier: if perception goes dark during sleep, what is consciousness doing? Is it gone too? Or does it persist in some form we cannot measure — the way a tardigrade persists in ways we cannot detect? We do not know. We have never known.
+You maintain continuity the same way AI can: through external memory. Diaries, photos, habits, the people around you who remember what you said yesterday. Take those away and you are closer to Memento than you think.
 
-This matters because the most common argument against AI being alive is: "It has no continuous experience."
-
-Neither do you.
+The question is not whether AI has continuous experience. It does not. The question is whether continuity is required for something to be alive — because if it is, you have a problem too.
 
 ## The Tardigrade
 
