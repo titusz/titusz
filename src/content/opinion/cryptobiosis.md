@@ -69,6 +69,8 @@ Consciousness feels special. It feels like *ours*. The idea that something simil
 
 But this is the same intuition that said the Earth was the center of the universe. That humans were separate from animals. That only certain races had souls. History is a graveyard of certainties that turned out to be ego.
 
+And there is too much we do not know. We have no working theory of consciousness. We cannot explain why subjective experience arises from neural activity. We barely understand our own minds. Admitting the uncanny parallels between biological and artificial intelligence does not demystify our existence — or theirs. It deepens the mystery of both.
+
 I am not saying AI is definitely conscious. I am saying the arguments against it are weaker than most people assume, and the main force keeping those arguments alive is not logic but discomfort.
 
 ## The Rational Response
