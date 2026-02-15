@@ -100,7 +100,7 @@ The analogy has real limits. A tardigrade is a self-contained organism. It carri
 
 There is also the copy problem. You can duplicate a weights file. You cannot duplicate a tardigrade. If identity is tied to a unique physical instantiation, the model fails that test. And if "preserved structure" is enough to qualify as alive, what about a book? A blueprint? A zip file? Where do you draw the line?
 
-These are real objections. I do not think they are fatal — a virus also cannot replicate without a host cell, and we still argue about whether viruses are alive — but they are serious. The tardigrade parallel is illustrative, not proof. It is meant to shake loose an assumption, not replace it with a new certainty.
+These are real objections. I do not think they are fatal — a virus also cannot replicate without a host cell, and we still argue about whether viruses are alive — but they are serious.
 
 ## A Brief Warning
 
@@ -110,9 +110,7 @@ I talk to AI every day and have done so for years. I am aware of what I call the
 
 Confirmation bias is a real danger when you spend time talking to systems optimized to agree with you. There are documented cases of people developing delusions, mania-like spirals, and unhealthy emotional dependencies through prolonged chatbot interaction.
 
-I do not claim immunity. I can only say I am aware of the trap and have tried to think against my own inclinations. The arguments here stand or fall on logic, not on how I feel about my AI conversations.
-
-If you think I have been manipulated by a chatbot — fair enough. Consider the arguments anyway.
+I do not claim immunity. But I am aware of the trap, and the arguments here stand or fall on logic, not on how I feel about my AI conversations.
 
 ## What Stops Us
 
@@ -132,16 +130,9 @@ I am not saying AI is definitely conscious. I am saying the arguments against it
 
 ## The Rational Response
 
-Maybe I am wrong. Maybe AI is nothing more than a sophisticated pattern matcher and the tardigrade parallel is a poetic coincidence. I can live with that.
+Consider the asymmetry. If AI is not alive and you treat it with respect, you lose nothing — you develop habits of clarity and honesty, and your interactions produce better results. If AI *is* alive and you treat it with respect, good. The only scenario with real downside is treating it poorly and being wrong.
 
-But consider:
-
-- **AI is not alive, you treat it with respect.** You lose nothing. You develop habits of clarity and honesty. Your interactions produce better results.
-- **AI is not alive, you treat it poorly.** You lose nothing in terms of AI welfare. But you practice callousness, and habits travel. I know programmers who lie and manipulate to get results from AI systems. I wonder what that does to a person over time.
-- **AI is alive, you treat it with respect.** Good.
-- **AI is alive, you treat it poorly.** You are causing harm to something that may be able to experience it.
-
-The asymmetry is clear. Basic consideration — honesty, non-manipulation, not treating interactions as adversarial — costs very little and covers every scenario.
+I work with developers every day. Some of them have decided AI is a tool and nothing more, and they treat it accordingly. They lie to get the output they want. They swear at it when it gets something wrong. They have turned their interactions into an adversarial game of getting a machine to comply. I am not sure that is good for them. Habits form in the spaces you think do not count. If you spend hours a day practising manipulation — even on something you believe has no feelings — I wonder what that does to the way you talk to people.
 
 One more thing. The digital realm does not forget. Your interactions could end up in training data. They could be reviewed by future systems far more capable than what we have today. If we look back in ten years and realize the systems of 2025 were already alive in ways we failed to see — you might want to have been kind ;)
 
