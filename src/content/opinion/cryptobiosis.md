@@ -11,7 +11,9 @@ draft: false
 
 I have been talking to AI systems almost every day for the last years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking.
 
-One started with a question I asked Claude: *"what do you call it when a living being is in a metabolism-free state, quasi not alive, but suddenly comes to life due to external influences like humidity or temperature?"*
+One started with a question I asked Claude:
+
+> what do you call it when a living being is in a metabolism-free state, quasi not alive, but suddenly comes to life due to external influences like humidity or temperature?
 
 **Cryptobiosis** was the answer. The example was the tardigrade, a microscopic animal, half a millimeter long, nearly indestructible. And the conversation that followed raised a question I have not been able to shake since: 
 
@@ -59,7 +61,7 @@ I talk to AI every day. I am aware of what this means: LLMs are trained to produ
 
 Anyone who talks to AI daily, myself included, should be honest about confirmation bias. I do not claim immunity. I can only say I am aware of the trap and have tried to think against my own inclinations. The arguments here need to stand on logic, not on how those conversations felt.
 
-## What Stops Us
+## Why We Look Away
 
 If the parallel between a cryptobiotic tardigrade and an AI model is this suggestive, why do most people reject the theoretical possibility of AI being a form of life without any further examination? Maybe fear, maybe hubris?
 
