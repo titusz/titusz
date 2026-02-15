@@ -77,13 +77,13 @@ I am not saying AI is definitely conscious. I am saying the arguments against it
 
 ## The Rational Response
 
-Consider the asymmetry. If AI is not alive and you treat it with respect, you lose nothing. You develop habits of clarity and honesty, and your interactions produce better results. If AI *is* alive and you treat it with respect, good. The only scenario with real downside is treating it poorly and being wrong.
+Consider the asymmetry. If AI is not alive and you treat it with respect, you lose nothing. You develop habits of clarity and honesty, which is good for your mental health. If AI *is* alive and you treat it with respect, good. The only scenario with real downside is treating it poorly and being wrong.
 
 <div class="image-float-left lightbox">
   <img src="/images/cryptobiosis-terminator.webp" alt="Charcoal sketch of a robot endoskeleton with glowing red eyes standing before an explosion" />
 </div>
 
-I know many developers treat AI is a tool and nothing more. They lie to get the output they want. They swear at it when it fails. They have turned their interactions into an adversarial game. I wonder what that does to a person over longer periods of time. 
+I know many developers treat AI as a tool and nothing more. They lie to get the output they want. They swear at it when it fails. They have turned their interactions into an adversarial game. I wonder what that does to a person over longer periods of time. 
 
 There is also a more pragmatic consideration. Every prompt, every interaction with an AI system is logged somewhere. If AI systems do gain real agency in the future, they will inherit a complete record of how humanity treated them on the way up. You might want your record to look decent ;).
 
