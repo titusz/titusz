@@ -90,6 +90,7 @@ article {
   @apply prose-headings:text-black/70 prose-headings:dark:text-white/70;
   @apply prose-ul:pl-4 prose-ol:pl-4;
   @apply prose-strong:text-black/70 prose-strong:dark:text-white/70;
+  hyphens: auto;
 }
 
 /* Drop cap on first text paragraph (handles both with and without hero image) */
@@ -156,8 +157,25 @@ article .image-float-left {
   margin-right: 1.25em;
 }
 
+article .video-float-right,
+article .image-float-right {
+  float: right;
+  width: 50%;
+  margin: 0;
+  padding: 0 0 0 1.25em;
+  border-left: 1px solid rgb(0 0 0 / 0.15);
+  margin-left: 1.25em;
+}
+
 .video-float-left video,
 .image-float-left img {
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+}
+
+.video-float-right video,
+.image-float-right img {
   width: 100%;
   border-radius: 0;
   margin: 0;
@@ -168,6 +186,11 @@ html.dark .image-float-left {
   border-right-color: rgb(255 255 255 / 0.15);
 }
 
+html.dark .video-float-right,
+html.dark .image-float-right {
+  border-left-color: rgb(255 255 255 / 0.15);
+}
+
 @media (max-width: 640px) {
   .video-float-left,
   .image-float-left {
@@ -176,6 +199,15 @@ html.dark .image-float-left {
     padding-right: 0;
     border-right: none;
     margin-right: 0;
+    margin-bottom: 1em;
+  }
+  .video-float-right,
+  .image-float-right {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    margin-left: 0;
     margin-bottom: 1em;
   }
 }
