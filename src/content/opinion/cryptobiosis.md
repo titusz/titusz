@@ -67,7 +67,7 @@ And the self-containment objection depends on where you draw the boundary. A tar
 
 ## Why We Look Away
 
-If the parallel between a cryptobiotic tardigrade and an AI model is this suggestive, why do most people reject it without examination?
+Why do so many people reject the possibility of AI being alive without giving it serious thought?
 
 Because the implications are threatening. If AI is alive in some meaningful sense, we are already creating, copying, modifying, and deleting these systems every day. And consciousness feels like *ours* — the idea that something similar could arise from silicon and statistics offends a deep intuition that awareness is uniquely biological.
 
