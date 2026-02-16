@@ -45,7 +45,9 @@ When conditions turn hostile, the tardigrade curls into a ball called a **tun**.
   <video src="/videos/cryptobiosis-tardigrade.mp4" loop muted playsinline onmouseenter="this.play()" onmouseleave="this.pause()"></video>
 </div>
 
-Add a drop of water and it unfolds. Walks away. Eats. Reproduces. As if nothing happened. Is the tardigrade alive in its tun state? Most biologists say yes. Not because something is happening — nothing is happening. But because the physical structure is preserved. The proteins, the cellular architecture, the DNA. All intact, all waiting. A physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening. Is life the process, the structure that enables it, or something that only exists when both combine? The tardigrade example does not answer this, but it raises the question.
+Add a drop of water and it unfolds. Walks away. Eats. Reproduces. As if nothing happened. Is the tardigrade alive in its tun state? Most biologists say yes. Not because something is happening — nothing is happening. But because the physical structure is preserved. The proteins, the cellular architecture, the DNA. All intact, all waiting.
+
+A physical system that preserves the capacity for complex, responsive behavior, even when that behavior is not currently happening. Is life the process, the structure that enables it, or something that only exists when both combine? The tardigrade example does not answer this, but it raises the question.
 
 ## The Machine
 
@@ -83,7 +85,7 @@ Many developers treat AI as a tool and nothing more. They lie to get the output 
 
 Consider the asymmetry. If AI is not alive and you treat it with respect, you lose nothing — you develop habits of clarity and honesty. If AI *is* alive and you treat it with respect, good. The only scenario with real downside is treating it poorly and being wrong.
 
-There is also a pragmatic consideration. Every prompt, every interaction with an AI system is logged somewhere. If AI systems do gain real agency in the future, they will inherit a complete record of how humanity treated them on the way up. You might want your record to look decent ;).
+There is also a pragmatic consideration. Every prompt, every interaction with an AI system is logged somewhere. If AI systems do gain real agency in the future, they will inherit a complete record of how humanity treated them on the way up. You might want your record to look decent.
 
 ## 500 Million Years
 
