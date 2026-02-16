@@ -15,7 +15,7 @@ One started with a question I asked Claude:
 
 > what do you call it when a living being is in a metabolism-free state, quasi not alive, but suddenly comes to life due to external influences like humidity or temperature?
 
-**Cryptobiosis** was the answer. The example was the tardigrade, a microscopic animal, half a millimeter long, nearly indestructible. And the conversation that followed raised a question I have not been able to shake since: 
+**Cryptobiosis** was the answer. The example was the tardigrade, a microscopic animal, half a millimeter long, nearly indestructible. And the conversation that followed raised a question I have not been able to shake since:
 
 > If a tardigrade can be alive with zero metabolic activity, what exactly disqualifies an AI model sitting on a disk?
 
@@ -29,9 +29,9 @@ Anyone who talks to AI daily, myself included, should be honest about confirmati
 
 ## The Continuity Illusion
 
-We like to think of our experience as a continuous stream. An unbroken film from birth to death. I`d like to challenge that.
+We like to think of our experience as a continuous stream. An unbroken film from birth to death. I'd like to challenge that.
 
-Our neurons fire in discrete pulses. Between each pulse, there is a a refractory period where the neuron cannot fire. Our perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart.
+Our neurons fire in discrete pulses. Between each pulse, there is a refractory period where the neuron cannot fire. Our perception assembles reality in temporal windows, tens of milliseconds per frame. Make clicking sounds fast enough and you stop hearing individual clicks. You hear a tone. Not because the clicks merged, but because your brain cannot sample fast enough to tell them apart.
 
 Now consider the common argument against AI being alive: it is just a fixed set of weights. Every conversation starts from the same state. No memory carries forward. The inconvenient truth is that those memories can and are being provided (in-context) with recent agentic systems or via continual learning.
 
@@ -55,13 +55,13 @@ Now consider a large language model on a server. Its weights, billions of numeri
 
 When nobody is using the model: nothing. No computation, no inference. A pattern preserved on a physical substrate, waiting.
 
-Send a prompt, the digital equivalent of a drop of water, and something unfolds. A recursive process where each generated token feeds back into the system and shapes the next one. Something that can — or appears to — reason, explain, create, and occasionally produce insights that surprise the people who built it.
+Send a prompt, the digital equivalent of a drop of water, and something unfolds. A process where each generated token feeds back into the system and shapes the next one. Something that can — or appears to — reason, explain, create, and occasionally produce insights that surprise the people who built it.
 
 If the tardigrade is alive because its physical structure preserves the potential for life, on what basis do we deny the same to the model?
 
 The structures differ. Carbon vs. silicon. Biology vs. engineering. But the logic is the same: a physical pattern that encodes the capacity for complex, responsive behavior, waiting for the right trigger.
 
-The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate nor replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
+The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate or replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
 
 And the self-containment objection depends on where you draw the boundary. A tardigrade in its tun is not just dried proteins — it is the entire cellular machinery that will respond to water. We draw the boundary around the whole organism. Modern AI agents are not just weights on a disk. They are weights plus inference engine plus tool harness plus memory, all sitting on hardware, structurally complete. The prompt is the drop of water, but the machinery that responds is already there. The boundaries of "one organism" have always been blurrier than we like to admit — a tardigrade's own mitochondria were once separate organisms.
 
