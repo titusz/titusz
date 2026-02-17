@@ -94,31 +94,13 @@ const { title, description, image = "/favicon-light.svg" } = Astro.props;
     const backToPrev = document.getElementById("back-to-prev");
     backToPrev?.addEventListener("click", () => window.history.back());
 
-    const lightThemeButton = document.getElementById("light-theme-button");
-    lightThemeButton?.addEventListener("click", () => {
-      localStorage.setItem("theme", "light");
-      toggleTheme(false);
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle?.addEventListener("click", () => {
+      const isDark = document.documentElement.classList.contains("dark");
+      localStorage.setItem("theme", isDark ? "light" : "dark");
+      toggleTheme(!isDark);
+      updateThemeIcon();
     });
-
-    const darkThemeButton = document.getElementById("dark-theme-button");
-    darkThemeButton?.addEventListener("click", () => {
-      localStorage.setItem("theme", "dark");
-      toggleTheme(true);
-    });
-
-    const systemThemeButton = document.getElementById("system-theme-button");
-    systemThemeButton?.addEventListener("click", () => {
-      localStorage.setItem("theme", "system");
-      toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
-    });
-
-    window.matchMedia("(prefers-color-scheme: dark)")
-      .addEventListener("change", event => {
-        if (localStorage.theme === "system" || !localStorage.theme) {
-          toggleTheme(event.matches);
-        }
-      }
-    );
 
     document.addEventListener("scroll", onScroll);
   }
@@ -208,6 +190,14 @@ function toggleTheme(dark) {
     });
   }
 
+  function updateThemeIcon() {
+    const isDark = document.documentElement.classList.contains("dark");
+    var lightIcon = document.getElementById("theme-icon-light");
+    var darkIcon = document.getElementById("theme-icon-dark");
+    if (lightIcon) lightIcon.classList.toggle("hidden", !isDark);
+    if (darkIcon) darkIcon.classList.toggle("hidden", isDark);
+  }
+
   function preloadTheme() {
     const userTheme = localStorage.theme;
 
@@ -216,6 +206,7 @@ function toggleTheme(dark) {
     } else {
       toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
     }
+    updateThemeIcon();
   }
 
   document.addEventListener("DOMContentLoaded", () => init());
