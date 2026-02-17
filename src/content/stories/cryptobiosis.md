@@ -9,7 +9,7 @@ draft: false
 
 ![Charcoal drawing split down the middle — a tardigrade surrounded by DNA and cellular structures on the left, mirrored by neural network nodes and circuit pathways on the right](/images/cryptobiosis-hero.webp)
 
-I have been talking to AI systems almost every day for the last two years. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking.
+For the last two years, talking to AI systems has been part of my daily routine. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking.
 
 One started with a question I asked Claude:
 
