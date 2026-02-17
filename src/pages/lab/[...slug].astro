@@ -19,9 +19,23 @@ type Props = CollectionEntry<"lab">;
 
 const entry = Astro.props;
 const { Content } = await entry.render();
+const ogImage = `/og/lab/${entry.slug}.png`;
 ---
 
-<PageLayout title={entry.data.title} description={entry.data.description}>
+<PageLayout title={entry.data.title} description={entry.data.description} image={ogImage}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": entry.data.title,
+    "description": entry.data.description,
+    "datePublished": entry.data.date.toISOString(),
+    "image": new URL(ogImage, Astro.site).toString(),
+    "author": {
+      "@type": "Person",
+      "name": "Titusz Pan",
+      "url": "https://titusz.org",
+    },
+  })} />
   <Container>
     <div class="animate">
       <Breadcrumb items={[{ label: "Lab", href: "/lab" }, { label: entry.data.shortTitle ?? entry.data.title }]} />

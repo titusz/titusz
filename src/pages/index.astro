@@ -23,7 +23,25 @@ const opinions = (await getCollection("opinion"))
   .slice(0, SITE.NUM_OPINIONS_ON_HOMEPAGE);
 ---
 
-<PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
+<PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION} image="/og/home.png">
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Titusz Pan",
+    "url": "https://titusz.org",
+    "jobTitle": "CEO & Chairman",
+    "worksFor": [
+      { "@type": "Organization", "name": "Craft AG" },
+      { "@type": "Organization", "name": "ISCC Foundation" },
+      { "@type": "Organization", "name": "Amlet" },
+    ],
+    "sameAs": [
+      "https://github.com/titusz",
+      "https://www.linkedin.com/in/titusz",
+      "https://x.com/titusz",
+    ],
+    "knowsAbout": ["Content Identification", "ISCC", "ISO 24138", "Digital Media Technology"],
+  })} />
   <Container>
     <div class="space-y-16">
       <section>
