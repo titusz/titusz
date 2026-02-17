@@ -1,5 +1,5 @@
 /**
- * RSS feed including stories, lab, and opinion entries.
+ * RSS feed including stories and lab entries.
  */
 
 import rss from "@astrojs/rss";
@@ -17,11 +17,7 @@ export async function GET(context: Context) {
 
   const lab = (await getCollection("lab")).filter((entry) => !entry.data.draft);
 
-  const opinion = (await getCollection("opinion")).filter(
-    (entry) => !entry.data.draft
-  );
-
-  const items = [...stories, ...lab, ...opinion].sort(
+  const items = [...stories, ...lab].sort(
     (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
   );
 

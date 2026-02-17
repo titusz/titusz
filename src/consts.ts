@@ -8,9 +8,7 @@ export const SITE: Site = {
   NAME: "Titusz Pan",
   EMAIL: "tp@craft.de",
   NUM_STORIES_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_LABS_ON_HOMEPAGE: 3,
-  NUM_OPINIONS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
@@ -24,19 +22,9 @@ export const STORIES: Metadata = {
   DESCRIPTION: "Posts, projects, and ideas from the workshop.",
 };
 
-export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
-};
-
 export const LAB: Metadata = {
   TITLE: "Lab",
   DESCRIPTION: "Experiments, side-projects, and things I tinker with.",
-};
-
-export const OPINION: Metadata = {
-  TITLE: "Opinion",
-  DESCRIPTION: "What I think about things that matter.",
 };
 
 export const SOCIALS: Socials = [

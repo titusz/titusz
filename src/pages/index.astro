@@ -17,10 +17,6 @@ const labs = (await getCollection("lab"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, SITE.NUM_LABS_ON_HOMEPAGE);
 
-const opinions = (await getCollection("opinion"))
-  .filter(entry => !entry.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_OPINIONS_ON_HOMEPAGE);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION} image="/og/home.png">
@@ -127,26 +123,6 @@ const opinions = (await getCollection("opinion"))
           ))}
         </ul>
       </section>
-
-      {opinions.length > 0 && (
-        <section class="animate space-y-6">
-          <div class="flex flex-wrap gap-y-2 items-center justify-between">
-            <h5 class="font-light text-black/70 dark:text-white/70">
-              Opinion
-            </h5>
-            <Link href="/opinion">
-              See all opinions
-            </Link>
-          </div>
-          <ul class="flex flex-col gap-4">
-            {opinions.map(entry => (
-              <li>
-                <ArrowCard entry={entry} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
 
     </div>
   </Container>

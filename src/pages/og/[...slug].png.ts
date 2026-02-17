@@ -6,7 +6,7 @@
 import type { APIRoute, GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import { generateOgImage, findHeroImage } from "@lib/og-image";
-import { STORIES, LAB, OPINION, WORK } from "@consts";
+import { STORIES, LAB } from "@consts";
 
 /** Explicit hero image map for entries where slug doesn't match filename. */
 const HERO_OVERRIDES: Record<string, string> = {
@@ -18,10 +18,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
     (e) => !e.data.draft
   );
   const labs = (await getCollection("lab")).filter((e) => !e.data.draft);
-  const opinions = (await getCollection("opinion")).filter(
-    (e) => !e.data.draft
-  );
-
   function heroFor(slug: string): string | undefined {
     return HERO_OVERRIDES[slug] ?? findHeroImage(slug);
   }
@@ -52,14 +48,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
         heroImage: "/images/lab-hero.webp",
       },
     },
-    {
-      params: { slug: "opinion" },
-      props: { title: OPINION.DESCRIPTION, category: OPINION.TITLE },
-    },
-    {
-      params: { slug: "work" },
-      props: { title: WORK.DESCRIPTION, category: WORK.TITLE },
-    },
     // Content entries
     ...stories.map((entry) => ({
       params: { slug: `stories/${entry.slug}` },
@@ -75,15 +63,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
       props: {
         title: entry.data.title,
         category: "Lab",
-        date: entry.data.date,
-        heroImage: heroFor(entry.slug),
-      },
-    })),
-    ...opinions.map((entry) => ({
-      params: { slug: `opinion/${entry.slug}` },
-      props: {
-        title: entry.data.title,
-        category: "Opinion",
         date: entry.data.date,
         heroImage: heroFor(entry.slug),
       },
