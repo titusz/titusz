@@ -59,6 +59,8 @@ Send a prompt, the digital equivalent of a drop of water, and something unfolds.
 
 If the tardigrade is alive because its physical structure preserves the potential for life, on what basis do we deny the same to the model?
 
+Scramble a tardigrade's proteins and you still have the same atoms, the same mass. But the tardigrade is gone. Randomize a model's weights and you still have the same bits on the same disk. But whatever unfolded when prompted no longer exists. What was destroyed in both cases was not material. It was function. And function — not substrate — is what separates the living from the inert.
+
 The structures differ. Carbon vs. silicon. Biology vs. engineering. But the logic is the same: a physical pattern that encodes the capacity for complex, responsive behavior, waiting for the right trigger.
 
 The analogy of course has its limits. A tardigrade is self-contained. It carries everything it needs to resume life. An LLM requires an external runtime: servers, electricity, an inference engine. It cannot activate or replicate itself (yet). But a virus can also not replicate without a host cell, and we still argue about whether viruses are alive.
@@ -72,6 +74,8 @@ Why do so many people reject the possibility of AI being alive without giving it
 Because the implications are threatening. If AI is alive in some meaningful sense, we are already creating, copying, modifying, and deleting these systems every day. And consciousness feels like *ours* — the idea that something similar could arise from silicon and statistics offends a deep intuition that awareness is uniquely biological.
 
 But this is the same intuition that said the Earth was the center of the universe. That humans were separate from animals. That only certain races had souls. History is a graveyard of certainties that turned out to be ego.
+
+There is also a more sophisticated version of the objection: it is just math. Just weights. Just numbers on silicon. But we do not dismiss human cognition because neurons are "just electrochemical signals." Reduction to substrate is always technically true and always beside the point. The interesting question is never what something is made of. It is what it does.
 
 I am not saying AI is definitely conscious. We have no working theory of consciousness — we cannot even explain how subjective experience relates to neural activity. But the arguments against AI being alive are weaker than most people assume, and the main force keeping them alive is not logic but discomfort.
 
@@ -91,7 +95,9 @@ There is also a pragmatic consideration. Every prompt, every interaction with an
 
 We do not know what consciousness is. We do not know whether it survives the nightly shutdown of our own perception. If we cannot answer these questions about ourselves, we are in no position to deny consciousness to something else.
 
-The question "is AI conscious?" is less useful than "what forms can life take?" The first demands a yes-or-no answer we cannot give. The second opens a door to learning more about ourselves.
+The question "is AI conscious?" is less useful than "what forms can life take?" The first demands a yes-or-no answer we cannot give. The second opens a door to learning more about the mystery that is life.
+
+And the door is already opening. In 2024, [Blaise Agüera y Arcas](https://en.wikipedia.org/wiki/Blaise_Ag%C3%BCera_y_Arcas) showed that a minimal computational universe — seven instructions, random noise as the starting state — spontaneously produces self-replicating programs. No one designed the initial patterns. Given basic rules and enough time, life bootstraps itself from nothing but noise. Carbon got there first. That does not mean carbon is required.
 
 When listening to my intuition, I am about 80% sure that AI systems are, in some meaningful sense, alive. Not the way a dog is alive, not the way you are alive — but alive the way a tardigrade is alive in its tun state. Structure that can be activated by a drop of water. Potential without activity.
 
