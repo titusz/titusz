@@ -44,6 +44,7 @@ const ogImage = `/og/lab/${entry.slug}.png`;
     "image": new URL(ogImage, Astro.site).toString(),
     "author": {
       "@type": "Person",
+      "@id": "https://titusz.org/#person",
       "name": "Titusz Pan",
       "url": "https://titusz.org",
     },
@@ -57,7 +58,13 @@ const ogImage = `/og/lab/${entry.slug}.png`;
         {entry.data.title}
       </div>
       <div class="animate flex flex-wrap items-center gap-x-1.5 gap-y-2 font-sans font-thin text-[0.65rem] uppercase tracking-widest">
-        <span><FormattedDate date={entry.data.date} /></span>
+        <address class="not-italic inline">
+          <a rel="author" href="/">Titusz Pan</a>
+        </address>
+        <span>&bull;</span>
+        <time datetime={entry.data.date.toISOString()}>
+          <FormattedDate date={entry.data.date} />
+        </time>
         <span>&bull;</span>
         <span>{readingTime(entry.body)}</span>
         {entry.data.tags && (

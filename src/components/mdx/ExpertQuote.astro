@@ -1,0 +1,26 @@
+---
+/**
+ * Semantic expert quote component for MDX content.
+ * Renders as <figure> with <blockquote cite=""> and attributed <figcaption>.
+ */
+
+interface Props {
+  name: string;
+  title?: string;
+  organization?: string;
+  sourceUrl?: string;
+}
+
+const { name, title, organization, sourceUrl } = Astro.props;
+---
+
+<figure class="expert-quote not-prose my-6 border-l-2 border-black/20 dark:border-white/20 pl-5">
+  <blockquote class="text-[1.05em] italic text-black/80 dark:text-white/80" cite={sourceUrl}>
+    <slot />
+  </blockquote>
+  <figcaption class="mt-2 text-sm text-black/50 dark:text-white/50">
+    — <strong class="font-medium text-black/70 dark:text-white/70">{name}</strong>{title && `, ${title}`}
+    {organization && <span> at {organization}</span>}
+    {sourceUrl && <> · <a href={sourceUrl} class="underline hover:text-black dark:hover:text-white">Source</a></>}
+  </figcaption>
+</figure>
