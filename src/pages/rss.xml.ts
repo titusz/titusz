@@ -1,10 +1,13 @@
 /**
- * RSS feed including stories and lab entries.
+ * Full-content RSS feed including stories and lab entries.
  */
 
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { SITE, HOME } from "@consts";
+import MarkdownIt from "markdown-it";
+
+const md = new MarkdownIt();
 
 type Context = {
   site: string;
@@ -30,6 +33,8 @@ export async function GET(context: Context) {
       description: item.data.description,
       pubDate: item.data.date,
       link: `/${item.collection}/${item.slug}/`,
+      content: item.body ? md.render(item.body) : undefined,
+      categories: item.data.tags,
     })),
   });
 }
