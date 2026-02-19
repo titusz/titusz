@@ -3,10 +3,12 @@ title: "Lightsaber — The Fascination"
 description: "Why the lightsaber captivates us — a reflection on ancient values, modern technology, and humanity's longing for real magic."
 date: "2006-05-27"
 tags: ["star wars", "philosophy", "culture"]
-draft: true
+draft: false
 ---
 
-![Charcoal sketch of a figure with messy hair and glasses, gazing upward with contemplative wonder while wielding a purple lightsaber](/images/lightsaber-hero.webp)
+<div class="lightbox">
+  <img src="/images/lightsaber-hero.avif" alt="Bold expressionist painting of a figure with messy hair and glasses, gazing upward with contemplative wonder while wielding a glowing purple lightsaber against a deep blue atmospheric field" />
+</div>
 
 Since my first encounter with a lightsaber I was fascinated by the idea of this weapon. I
 must have been about 6 years old when I saw a lightsaber for the first time on a movie
@@ -14,41 +16,51 @@ poster of the original Star Wars movie. It happened on my daily walk to elementa
 And guess what — I came late that day.
 
 It seems there are a lot of people out there on the internet who share this fascination.
-Doing a research on the topic of lightsabers you will find mind-blowing things like:
+Search for "lightsaber" and you fall down a rabbit hole that has no bottom. There are
+expensive collectible replicas and artfully crafted custom sabers. People write software to
+add lightsaber effects to their home videos, then film duel choreographies in their
+backyards. There are scientific papers analyzing the physics of a lightsaber blade, and there
+are people building dangerous laser devices trying to make one real. The BBC reported on
+injuries from lightsaber mock duels. At the time of writing, Google returned 4.3 million hits on
+the keyword "lightsaber." The fascination is not niche. It is everywhere.
 
-- Lightsaber replicas — expensive limited collectible movie props
-- Lightsaber toys — with more or less imitating properties
-- Software to add lightsaber effects to videos
-- Home made lightsaber duel videos
-- Instructions on how to build your own toy lightsaber
-- Artfully crafted custom lightsabers
-- Computer games involving lightsabers
-- Scientific papers about lightsabers
-- Dangerous laser pointers in real lightsaber design
-- BBC news about injuries caused by lightsaber mock duels
-- 4.3 million Google hits on the keyword "lightsaber"
-- Historical reviews of the lightsaber
-- Psychological interpretations of the lightsaber as a phallus symbol
-- You name it...
+So where does this persistent buzz come from?
 
-So where does this persistent buzz come from? In my opinion, the attractiveness of the
-lightsaber comes from the fact that it is a combination of ancient values and modern
-technology. A return to times when humankind was surrounded by mystery and somehow
-"connected to the force." Society is captured by the false conclusion that because modern
-science can explain a lot of things, in reverse, things that can't be explained by science are
-either non-existent or worthless. We are living in a scientific-technical world of increasing
-complexity. And we are paying a high price for this. Everything outside the scientific paradigm
-is devalued into insignificance. Little space is left for "real magic" in our lives and it gives
-a lot of us the dumb feeling of something missing. The lightsaber is future technology based on
-the elegance and simplicity of ancient times, and it is used by people who are connected to
-"the force."
+Part of the answer is hidden in the origins of Star Wars itself. George Lucas did not just
+borrow from samurai films and Joseph Campbell's hero's journey. He read Carlos Castaneda —
+the anthropologist (or con artist, depending on who you ask) who wrote about his encounters
+with Don Juan Matus, a Yaqui Indian shaman in the Sonoran desert. In Castaneda's *Tales of
+Power*, Don Juan speaks of a "life force" that flows through all living things. Lucas took
+that idea and made it the spiritual core of his universe. The Force. Obi-Wan Kenobi evolved
+from a samurai archetype into something closer to Don Juan — a man with mysterious powers
+who mentors the young hero. Yoda's "Luminous beings are we" echoes Don Juan's own words.
+Even the word "ally" — "My ally is the Force" — comes straight from Castaneda's vocabulary.
+
+Whether Don Juan was real or invented does not matter. The ideas were real enough to
+electrify millions.
+
+And that is the point. The attractiveness of the lightsaber comes from the fact that it is a
+combination of ancient values and modern technology. A return to times when humankind was
+surrounded by mystery and somehow "connected to the force." We are living in a
+scientific-technical world of increasing complexity and we are paying a high price for it.
+Society operates under the false conclusion that because modern science can explain a lot of
+things, in reverse, things that can't be explained by science are either non-existent or
+worthless. Everything outside the scientific paradigm is devalued into insignificance. Little
+space is left for "real magic" in our lives and it gives a lot of us the dumb feeling of
+something missing.
+
+The lightsaber is future technology based on the elegance and simplicity of ancient times,
+wielded by people who are connected to something greater than themselves. That is why a
+6-year-old stands frozen in front of a movie poster. That is why grown adults build laser
+devices in their garages and write scientific papers about plasma blades. The longing is
+real. The weapon is just the symbol.
 
 As Obi-Wan Kenobi puts it:
 
 > This is the weapon of a Jedi Knight. Not as clumsy or as random as a blaster. An elegant
 > weapon for a more civilized time.
 
-May the Force be with you...
+May the Force be with you ...
 
 ## Comments from the original post
 
