@@ -3,7 +3,6 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
-import HeroImage from "@components/HeroImage.astro";
 import Breadcrumb from "@components/Breadcrumb.astro";
 import { LAB } from "@consts";
 
@@ -35,13 +34,16 @@ const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
         <p class="mt-3 text-2xl font-normal text-black/70 dark:text-white/70">
           Experiments, side-projects, and things I tinker with
         </p>
-        <HeroImage
-          src="/images/lab-hero.webp"
-          alt="Charcoal sketch of hands tinkering at a laboratory workbench"
-          width={1536}
-          height={1024}
-          class="mt-6"
-        />
+        <div class="lightbox mt-6">
+          <img
+            src="/images/lab-hero.avif"
+            alt="Bold expressionist painting of hands soldering a circuit board at a laboratory workbench"
+            width={1920}
+            height={1280}
+            class="w-full rounded-lg"
+            loading="eager"
+          />
+        </div>
       </div>
       <div class="space-y-4">
         {years.map(year => (

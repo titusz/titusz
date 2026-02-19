@@ -60,6 +60,7 @@ function formatDate(date: Date): string {
 /** Try to find a hero image for a content entry by slug convention. */
 export function findHeroImage(slug: string): string | undefined {
   const candidates = [
+    `/images/${slug}-hero.avif`,
     `/images/${slug}-hero.webp`,
     `/images/${slug}-hero.jpg`,
     `/images/${slug}-hero.png`,

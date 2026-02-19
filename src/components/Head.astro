@@ -192,7 +192,7 @@ function toggleTheme(dark) {
 
     document.querySelectorAll(".lightbox img").forEach(function(img) {
       img.addEventListener("click", function() {
-        overlayImg.src = img.src;
+        overlayImg.src = img.dataset.full || img.src;
         overlayImg.alt = img.alt;
         overlay.classList.add("active");
       });

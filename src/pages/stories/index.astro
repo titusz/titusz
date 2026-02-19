@@ -3,7 +3,6 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
-import HeroImage from "@components/HeroImage.astro";
 import Breadcrumb from "@components/Breadcrumb.astro";
 import { STORIES } from "@consts";
 
@@ -35,13 +34,16 @@ const years = Object.keys(entries).sort((a, b) => parseInt(b) - parseInt(a));
         <p class="mt-3 text-2xl font-normal text-black/70 dark:text-white/70">
           Life writes the best stories — some of them are mine
         </p>
-        <HeroImage
-          src="/images/hero-stories.webp"
-          alt="Charcoal sketch of a hooded spellcaster conjuring geometric structures from a laptop at an alchemist's workbench"
-          width={768}
-          height={512}
-          class="mt-6"
-        />
+        <div class="lightbox mt-6">
+          <img
+            src="/images/hero-stories.avif"
+            alt="Bold expressionist painting of a hooded alchemist conjuring geometric network structures at a workbench with scrolls, flasks, and a laptop"
+            width={1920}
+            height={1280}
+            class="w-full rounded-lg"
+            loading="eager"
+          />
+        </div>
       </div>
       <div class="space-y-4">
         {years.map(year => (

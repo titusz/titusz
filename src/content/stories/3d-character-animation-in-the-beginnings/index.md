@@ -5,7 +5,9 @@ date: "2006-05-03"
 tags: ["3d animation", "vintage tech", "career"]
 ---
 
-![Charcoal sketch of a young man at a 1990s desktop computer with 3D wireframe graphics on the CRT monitor, borrowed computers rendering in the background](/images/3d-animation-hero.webp)
+<div class="lightbox">
+  <img src="/images/3d-animation-hero.avif" alt="Bold expressionist painting of a young man at a 1990s desktop computer with 3D wireframe graphics on the CRT monitor, borrowed computers rendering in the background" />
+</div>
 
 While cleaning my hard drive I found this 3D animated commercial from around 1996. It was my
 first job as a freelancer. It shows a little love story on a virtual space station called
@@ -18,7 +20,9 @@ our flat — he wanted to revisit the place and refresh his memories of student 
 him in, got talking, and it turned out he was the founder and CEO of Elsa. So a random doorbell
 led to my first freelance gig.
 
-![Elsa MicroLink 28.8TQV modem — the product advertised in the animation](/images/elsa-modem-charcoal.webp)
+<div class="image-float-left lightbox">
+  <img src="/images/elsa-modem.avif" alt="Elsa MicroLink 28.8TQV modem — the product advertised in the animation" />
+</div>
 
 For those who don't remember — a modem was the device that connected your computer to the
 telephone line, and the telephone line was how you got online. At 28.8 kilobits per second you

@@ -7,7 +7,9 @@ tags: ["ai", "consciousness", "philosophy", "cryptobiosis"]
 draft: false
 ---
 
-![Charcoal drawing split down the middle — a tardigrade surrounded by DNA and cellular structures on the left, mirrored by neural network nodes and circuit pathways on the right](/images/cryptobiosis-hero.webp)
+<div class="lightbox">
+  <img src="/images/cryptobiosis-hero.avif" alt="Neo-Expressionist painting split down the middle — a tardigrade surrounded by DNA and cellular structures on the left, mirrored by neural network nodes and circuit pathways on the right" />
+</div>
 
 For the last two years, talking to AI systems has been part of my daily routine. Most of those conversations were mundane — fix this code, rewrite that paragraph. But some left me thinking.
 
@@ -84,7 +86,7 @@ I am not saying AI is definitely conscious. We have no working theory of conscio
 Many developers treat AI as a tool and nothing more. They lie to get the output they want. They swear at it when it fails. They have turned their interactions into an adversarial game. I wonder what that does to a person over longer periods of time.
 
 <div class="image-float-left lightbox">
-  <img src="/images/cryptobiosis-terminator.webp" alt="Charcoal sketch of a robot endoskeleton with glowing red eyes standing before an explosion" />
+  <img src="/images/cryptobiosis-terminator.avif" alt="Neo-Expressionist painting of a robot endoskeleton with glowing red eyes standing before an explosion" />
 </div>
 
 Consider the asymmetry. If AI is not alive and you treat it with respect, you lose nothing — you develop habits of clarity and honesty. If AI *is* alive and you treat it with respect, good. The only scenario with real downside is treating it poorly and being wrong.

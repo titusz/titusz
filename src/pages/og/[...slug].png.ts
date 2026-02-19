@@ -10,7 +10,7 @@ import { STORIES, LAB } from "@consts";
 
 /** Explicit hero image map for entries where slug doesn't match filename. */
 const HERO_OVERRIDES: Record<string, string> = {
-  "3d-character-animation-in-the-beginnings": "/images/3d-animation-hero.webp",
+  "3d-character-animation-in-the-beginnings": "/images/3d-animation-hero.avif",
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -28,7 +28,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       params: { slug: "home" },
       props: {
         title: "Sparks, craft, and working code",
-        heroImage: "/images/hero-landing.webp",
+        heroImage: "/images/hero-landing.avif",
       },
     },
     // Section indexes
@@ -37,7 +37,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       props: {
         title: STORIES.DESCRIPTION,
         category: STORIES.TITLE,
-        heroImage: "/images/hero-stories.webp",
+        heroImage: "/images/hero-stories.avif",
       },
     },
     {
@@ -45,7 +45,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       props: {
         title: LAB.DESCRIPTION,
         category: LAB.TITLE,
-        heroImage: "/images/lab-hero.webp",
+        heroImage: "/images/lab-hero.avif",
       },
     },
     // Content entries
