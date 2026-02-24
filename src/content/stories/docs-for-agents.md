@@ -8,7 +8,7 @@ draft: false
 ---
 
 <div class="lightbox">
-  <img src="/images/materialized-view-hero.avif" alt="Bold expressionist painting of two cute robots side by side — one confused and overwhelmed by dense prose documentation, the other happy and giving a thumbs up while reading clean structured docs" />
+  <img src="/images/docs-for-agents-hero.avif" alt="Bold expressionist painting of two cute robots side by side — one confused and overwhelmed by dense prose documentation, the other happy and giving a thumbs up while reading clean structured docs" />
 </div>
 
 Third time rewriting the same project instructions for a coding agent. Same library, same constraints, same "do not touch the generated files" rule, but the agent started a fresh session and had no idea. The documentation was right there in the repo. It just was not written for the agent.
