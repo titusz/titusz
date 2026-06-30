@@ -174,12 +174,12 @@ function toggleTheme(dark) {
       document.documentElement.classList.remove("dark");
     }
 
-  window.getComputedStyle(css).opacity;
+  void window.getComputedStyle(css).opacity;
     document.head.removeChild(css);
   }
 
   function initLightbox() {
-    var overlay = document.getElementById("lightbox-overlay");
+    let overlay = document.getElementById("lightbox-overlay");
     if (!overlay) {
       overlay = document.createElement("div");
       overlay.id = "lightbox-overlay";
@@ -188,7 +188,7 @@ function toggleTheme(dark) {
       document.body.appendChild(overlay);
     }
 
-    var overlayImg = overlay.querySelector("img");
+    const overlayImg = overlay.querySelector("img");
 
     document.querySelectorAll(".lightbox img").forEach(function(img) {
       img.addEventListener("click", function() {
@@ -211,8 +211,8 @@ function toggleTheme(dark) {
 
   function updateThemeIcon() {
     const isDark = document.documentElement.classList.contains("dark");
-    var lightIcon = document.getElementById("theme-icon-light");
-    var darkIcon = document.getElementById("theme-icon-dark");
+    const lightIcon = document.getElementById("theme-icon-light");
+    const darkIcon = document.getElementById("theme-icon-dark");
     if (lightIcon) lightIcon.classList.toggle("hidden", !isDark);
     if (darkIcon) darkIcon.classList.toggle("hidden", isDark);
   }
