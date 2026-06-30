@@ -1,0 +1,24 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1.1",
+  "id": "did:web:titusz.org",
+  "verificationMethod": [
+    {
+      "id": "did:web:titusz.org#iscc",
+      "type": "Multikey",
+      "controller": "did:web:titusz.org",
+      "publicKeyMultibase": "z6MkwXToTYfY3rdjWYjD8hvhXWJqsBaghga7QU9PSn3xW9gA"
+    }
+  ],
+  "authentication": [
+    "did:web:titusz.org#iscc"
+  ],
+  "assertionMethod": [
+    "did:web:titusz.org#iscc"
+  ],
+  "capabilityDelegation": [
+    "did:web:titusz.org#iscc"
+  ],
+  "capabilityInvocation": [
+    "did:web:titusz.org#iscc"
+  ]
+}
