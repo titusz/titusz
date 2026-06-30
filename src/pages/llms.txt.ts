@@ -22,11 +22,11 @@ export const GET: APIRoute = async () => {
 
 ## Stories
 
-${stories.map((p) => `- [${p.data.title}](${site}/stories/${p.slug}/): ${p.data.description}`).join("\n")}
+${stories.map((p) => `- [${p.data.title}](${site}/stories/${p.id}/): ${p.data.description}`).join("\n")}
 
 ## Lab
 
-${lab.map((p) => `- [${p.data.title}](${site}/lab/${p.slug}/): ${p.data.description}`).join("\n")}
+${lab.map((p) => `- [${p.data.title}](${site}/lab/${p.id}/): ${p.data.description}`).join("\n")}
 
 ## Links
 

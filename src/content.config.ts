@@ -1,11 +1,17 @@
 /**
  * Content collection schemas for stories and lab.
+ *
+ * Uses the Content Layer `glob` loader (Astro 6+). The default id
+ * generation strips the file extension and a trailing `/index`, so
+ * `stories/foo.md` and `stories/foo/index.md` both yield the id `foo` —
+ * matching the URLs the legacy collection produced.
  */
 
 import { defineCollection, z } from "astro:content";
+import { glob } from "astro/loaders";
 
 const stories = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/stories" }),
   schema: z.object({
     title: z.string(),
     shortTitle: z.string().optional(),
@@ -20,7 +26,7 @@ const stories = defineCollection({
 });
 
 const lab = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/lab" }),
   schema: z.object({
     title: z.string(),
     shortTitle: z.string().optional(),

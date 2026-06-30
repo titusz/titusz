@@ -1,5 +1,5 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection, render } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import FormattedDate from "@components/FormattedDate.astro";
@@ -12,15 +12,15 @@ export async function getStaticPaths() {
     .filter(entry => !entry.data.draft)
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   return stories.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { slug: entry.id },
     props: entry,
   }));
 }
 type Props = CollectionEntry<"stories">;
 
 const entry = Astro.props;
-const { Content } = await entry.render();
-const ogImage = `/og/stories/${entry.slug}.png`;
+const { Content } = await render(entry);
+const ogImage = `/og/stories/${entry.id}.png`;
 ---
 
 <PageLayout
@@ -67,12 +67,12 @@ const ogImage = `/og/stories/${entry.slug}.png`;
           <FormattedDate date={entry.data.date} />
         </time>
         <span>&bull;</span>
-        <span>{readingTime(entry.body)}</span>
+        <span>{readingTime(entry.body ?? "")}</span>
         {entry.data.tags && (
           <>
             <span>&bull;</span>
             {entry.data.tags.map(tag => (
-              <span class="small-caps leading-none px-1.5 pt-[1px] pb-[5px] rounded-sm bg-black/5 dark:bg-white/10 text-black/85 dark:text-white/85">
+              <span class="small-caps leading-none px-1.5 pt-[1px] pb-[5px] rounded-xs bg-black/5 dark:bg-white/10 text-black/85 dark:text-white/85">
                 {tag}
               </span>
             ))}

@@ -50,21 +50,21 @@ export const getStaticPaths: GetStaticPaths = async () => {
     },
     // Content entries
     ...stories.map((entry) => ({
-      params: { slug: `stories/${entry.slug}` },
+      params: { slug: `stories/${entry.id}` },
       props: {
         title: entry.data.title,
         category: "Stories",
         date: entry.data.date,
-        heroImage: heroFor(entry.slug),
+        heroImage: heroFor(entry.id),
       },
     })),
     ...labs.map((entry) => ({
-      params: { slug: `lab/${entry.slug}` },
+      params: { slug: `lab/${entry.id}` },
       props: {
         title: entry.data.title,
         category: "Lab",
         date: entry.data.date,
-        heroImage: heroFor(entry.slug),
+        heroImage: heroFor(entry.id),
       },
     })),
   ];
